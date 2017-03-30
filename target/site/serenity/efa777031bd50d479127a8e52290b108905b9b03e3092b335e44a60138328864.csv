@@ -1,0 +1,7 @@
+"Story","Title","Result","Date","Stability","Duration (s)"
+"Feedback story","Bao can create full feedback","SUCCESS","2017-03-30T10:53:10.217+07:00","0.0","206.07"
+"Feedback story","Bao should be able to view and edit full feedback","SUCCESS","2017-03-30T10:56:37.578+07:00","0.0","197.07"
+"Login story","John should be able to login and logout PA system successfully","SUCCESS","2017-03-30T11:04:03.318+07:00","0.0","13.44"
+"Login story","John should be able to perform several login scenarios","SUCCESS","2017-03-30T11:03:46.648+07:00","0.0","15.89"
+"Search story","Sandra should see expected result when filtering date","SUCCESS","2017-03-30T11:09:45.393+07:00","0.0","24.2"
+"Search story","The buttons should be on right state when choosing rows","SUCCESS","2017-03-30T11:04:20.562+07:00","0.0","324.08"

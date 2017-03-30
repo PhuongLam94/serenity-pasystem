@@ -1,0 +1,3 @@
+"Story","Title","Result","Date","Stability","Duration (s)"
+"Search story","Sandra should see expected result when filtering date","SUCCESS","2017-03-30T11:09:45.393+07:00","0.0","24.2"
+"Search story","The buttons should be on right state when choosing rows","SUCCESS","2017-03-30T11:04:20.562+07:00","0.0","324.08"

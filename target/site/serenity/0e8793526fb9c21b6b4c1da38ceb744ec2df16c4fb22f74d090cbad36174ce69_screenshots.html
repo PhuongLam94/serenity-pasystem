@@ -1,0 +1,542 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title>Screenshots</title>
+
+    <link rel="shortcut icon" href="favicon.ico">
+
+<link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
+<!--[if IE 7]>
+<link rel="stylesheet" href="font-awesome/css/font-awesome-ie7.min.css">
+<![endif]--><!-- JQuery -->
+<script type="text/javascript" src="scripts/jquery-1.11.1.min.js"></script><!-- Bootstrap -->
+<link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+<script src="bootstrap/js/bootstrap.min.js"></script><link rel="stylesheet" href="css/core.css"/>
+<link rel="stylesheet" href="css/link.css"/>
+<link type="text/css" media="screen" href="css/screen.css" rel="Stylesheet"/><!-- Nivo Slider -->
+<link rel="stylesheet" href="nivo-slider/3.2/nivo-slider.css" type="text/css" media="screen" />
+<link rel="stylesheet" href="nivo-slider/3.2/themes/default/default.css" type="text/css" media="screen" />
+<script src="nivo-slider/3.2/jquery.nivo.slider.pack.js" type="text/javascript"></script>
+    <script type="text/javascript">
+
+        function getUrlVars() {
+            var vars = {};
+            var parts = window.location.href.replace(/[?&]+([^=&]+)=([^&]*)/gi, function (m, key, value) {
+                vars[key] = value;
+            });
+            return vars;
+        }
+
+        var screenshotIndex = getUrlVars()["screenshot"];
+
+        $(window).load(function () {
+            $('#slider').nivoSlider({
+                startSlide: screenshotIndex,
+                effect: 'fade',
+                animSpeed: 200,
+                manualAdvance: true
+            });
+        });
+
+        $(window).keydown(function(e) {
+            switch(e.which) {
+                case 37:
+                    $('a.nivo-prevNav').click();
+                    break;
+                case 39:
+                    $('a.nivo-nextNav').click();
+                    break;
+            }
+        });
+    </script>
+
+</head>
+
+<body>
+<div id="topheader">
+    <div id="topbanner">
+        <div id="logo"><a href="index.html"><img src="images/serenity-bdd-logo.png" border="0"/></a></div>
+        <div id="projectname-banner" style="float:right">
+            <span class="projectname">Demo Project using Serenity Screenplay and JUnit</span>
+        </div>
+    </div>
+</div>
+
+<div class="middlecontent">
+    <div id="contenttop">
+        <div class="middlebg">
+            <span class="breadcrumbs">
+                <a href="index.html">Home</a>
+                > <a
+                    href="074701e626c84b71a0e5cc415fa0b5b32e2f99699d546efe7de6405e77936607.html">Feedback Story</a>
+                > <a
+                    href="0e8793526fb9c21b6b4c1da38ceb744ec2df16c4fb22f74d090cbad36174ce69.html">Bao should be able to view and edit full feedback </a>
+                > Screenshots
+            </span>
+        </div>
+        <div class="rightbg"></div>
+    </div>
+
+    <div class="clr"></div>
+
+    <!--/* starts second table*/-->
+<div>
+    <ul class="nav nav-tabs" role="tablist">
+        <li class="active">
+            <a href="#"><i class="fa fa-check-square-o"></i> Overall Test Results</a>
+        </li>
+        <li >
+            <a href="capabilities.html"><i class="fa fa-book"></i> Requirements</a>
+        </li>
+        <li >
+            <a href="2a4631d87648e59c428d4cf0e9247f9d286e4679f436ca2ce872e931eb4dfd58.html"><i class="fa fa-comments-o"></i> Stories</a>
+        </li>
+    </ul>
+    <span class="date-and-time"><a href="build-info.html"><i class="fa fa-info-circle"></i></a> Report generated 30-03-2017 10:56</span>
+    <br style="clear:left"/>
+</div>
+
+    <div class="clr"></div>
+
+
+    <div id="contentbody">
+        <div class="titlebar">
+            <div class="story-title">
+                <table class="outcome-header">
+                    <tr>
+                        <td>
+                            <div>
+                                <h3 class="discreet-story-header">
+                                    <i class="fa fa-2x fa-comments-o"></i>
+                                    <span class="story-header-title">Feedback Story</span>
+                                    <span class="badge tag-badge">Story</span>
+                                </h3>
+
+                                <div class="discreet-requirement-narrative-title">
+                                
+                                </div>
+                            </div>
+
+                        </td>
+                        <td valign="top" align="right">
+                            <p class="tag">
+                                <span class="badge tag-badge">
+                                    <i class="fa fa-tag"></i>&nbsp;<a class="tagLink" href="bfea44d65a2b4a2a07b76bf773bf8a95108225654e26302aefbad96980e3f9f5.html">Edit
+                                    (feedbackType)</a>
+                                </span>
+                            </p>
+                            <p class="tag">
+                                <span class="badge tag-badge">
+                                    <i class="fa fa-tag"></i>&nbsp;<a class="tagLink" href="6873012c9945e414ffee04b59f74b7233cde0cc782e1d66e4f369f91ab25d3c8.html">Feedback
+                                    (feature)</a>
+                                </span>
+                            </p>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+            <div class="story-title">
+                <table class="outcome-header">
+                    <tr>
+                        <td colspan="2" class="test-title-bar">
+                            <span class="outcome-icon"><i class='fa fa-check-square-o success-icon fa-3x' title='SUCCESS'></i></span>
+                            <span class="test-case-title">
+                                <span class="success-color">Bao Should Be Able To View And Edit Full Feedback
+                                    <span class="related-issue-title"></span>
+                                </span>
+                            </span>
+
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <div class="clr"></div>
+
+
+    <div id="beforetable"></div>
+    <div id="contenttilttle">
+        <div class="slider-wrapper theme-default">
+            <div id="slider">
+                <img src="scaled_499c1bd25ae70844191cd3f557da5e9f7c57a823eb3450df93abf2971deac97d.png" title="Bao Pham creates full feedback" width="960"/>
+                <img src="a9c9faaf0ef40eadf8462221f8b5a10469fc17be3fcc179907e98b52be9de44d.png" title="Open the application" width="960"/>
+                <img src="a9c9faaf0ef40eadf8462221f8b5a10469fc17be3fcc179907e98b52be9de44d.png" title="Bao Pham opens the Login page" width="960"/>
+                <img src="a9c9faaf0ef40eadf8462221f8b5a10469fc17be3fcc179907e98b52be9de44d.png" title="Bao Pham logs in successfully with username '#username' and password '#password'" width="960"/>
+                <img src="edecfbad55bc86a39b5c8343c27d50e66810af0b26afc5a33d54136f090ae022.png" title="Bao Pham logs in successfully with username '#username' and password '#password'" width="960"/>
+                <img src="6d0d236c20185b5f20f9acbf6796c58064163a65e17d22bfbe8859a1e6a95832.png" title="Bao Pham enter authentication info with username 'baopham' and password 'kms'" width="960"/>
+                <img src="edecfbad55bc86a39b5c8343c27d50e66810af0b26afc5a33d54136f090ae022.png" title="Bao Pham enter authentication info with username 'baopham' and password 'kms'" width="960"/>
+                <img src="6d0d236c20185b5f20f9acbf6796c58064163a65e17d22bfbe8859a1e6a95832.png" title="Bao Pham enters 'baopham' into username field" width="960"/>
+                <img src="ca3be1774d0ff04d6830b01499b859afab3b1f8baa37e3543199a9638a75cabf.png" title="Bao Pham enters 'baopham' into username field" width="960"/>
+                <img src="ca3be1774d0ff04d6830b01499b859afab3b1f8baa37e3543199a9638a75cabf.png" title="Bao Pham enters 'kms' into password field" width="960"/>
+                <img src="7c98c775d7aee9de3a44f232b96acced9357df69fe910285ffccb0162c2db76a.png" title="Bao Pham enters 'kms' into password field" width="960"/>
+                <img src="7c98c775d7aee9de3a44f232b96acced9357df69fe910285ffccb0162c2db76a.png" title="Bao Pham clicks on login button" width="960"/>
+                <img src="edecfbad55bc86a39b5c8343c27d50e66810af0b26afc5a33d54136f090ae022.png" title="Bao Pham clicks on login button" width="960"/>
+                <img src="edecfbad55bc86a39b5c8343c27d50e66810af0b26afc5a33d54136f090ae022.png" title="Then the title of the page should be 'Home | PA Tool'" width="960"/>
+                <img src="edecfbad55bc86a39b5c8343c27d50e66810af0b26afc5a33d54136f090ae022.png" title="Bao Pham enters provide feedback page" width="960"/>
+                <img src="d2e7f0499f77aac1f5e9c6f3c08eaec517157c80cab4a3df90cea52e5015c3b6.png" title="Bao Pham enters provide feedback page" width="960"/>
+                <img src="edecfbad55bc86a39b5c8343c27d50e66810af0b26afc5a33d54136f090ae022.png" title="Bao Pham chooses a list of menu items: ['Provide Feedback' menu]" width="960"/>
+                <img src="d2e7f0499f77aac1f5e9c6f3c08eaec517157c80cab4a3df90cea52e5015c3b6.png" title="Bao Pham chooses a list of menu items: ['Provide Feedback' menu]" width="960"/>
+                <img src="edecfbad55bc86a39b5c8343c27d50e66810af0b26afc5a33d54136f090ae022.png" title="Bao Pham clicks on 'Provide Feedback' menu" width="960"/>
+                <img src="d2e7f0499f77aac1f5e9c6f3c08eaec517157c80cab4a3df90cea52e5015c3b6.png" title="Bao Pham clicks on 'Provide Feedback' menu" width="960"/>
+                <img src="d2e7f0499f77aac1f5e9c6f3c08eaec517157c80cab4a3df90cea52e5015c3b6.png" title="Then the title of the page should be 'Create Feedback | PA Tool'" width="960"/>
+                <img src="d2e7f0499f77aac1f5e9c6f3c08eaec517157c80cab4a3df90cea52e5015c3b6.png" title="Then general feedback information" width="960"/>
+                <img src="d2e7f0499f77aac1f5e9c6f3c08eaec517157c80cab4a3df90cea52e5015c3b6.png" title="Then chosen provide feedback for should be 'Myself'" width="960"/>
+                <img src="d2e7f0499f77aac1f5e9c6f3c08eaec517157c80cab4a3df90cea52e5015c3b6.png" title="Then displayed date should be '03/30/2017'" width="960"/>
+                <img src="d2e7f0499f77aac1f5e9c6f3c08eaec517157c80cab4a3df90cea52e5015c3b6.png" title="Then chosen feedback type should be 'Short feedback'" width="960"/>
+                <img src="d2e7f0499f77aac1f5e9c6f3c08eaec517157c80cab4a3df90cea52e5015c3b6.png" title="Bao Pham selects full feedback option" width="960"/>
+                <img src="scaled_9f1c0a466fc7edee3e407e4f5ae0752c0f8ce3fe7722663235a96ee7d32ff183.png" title="Bao Pham selects full feedback option" width="960"/>
+                <img src="d2e7f0499f77aac1f5e9c6f3c08eaec517157c80cab4a3df90cea52e5015c3b6.png" title="Bao Pham clicks on Full feedback checkbox" width="960"/>
+                <img src="scaled_801df0ffbeea47aadcae64136763e28e2ec80160ad563033f67a63d000be201c.png" title="Bao Pham clicks on Full feedback checkbox" width="960"/>
+                <img src="9f1c0a466fc7edee3e407e4f5ae0752c0f8ce3fe7722663235a96ee7d32ff183.png" title="Then default number of tabs and selected tab" width="960"/>
+                <img src="9f1c0a466fc7edee3e407e4f5ae0752c0f8ce3fe7722663235a96ee7d32ff183.png" title="Then number of tabs dipslayed should be (4)" width="960"/>
+                <img src="9f1c0a466fc7edee3e407e4f5ae0752c0f8ce3fe7722663235a96ee7d32ff183.png" title="Then selected tab should be 'KMS Core Values'" width="960"/>
+                <img src="9f1c0a466fc7edee3e407e4f5ae0752c0f8ce3fe7722663235a96ee7d32ff183.png" title="Bao Pham clicks on each tab to check visibilit and then return to first tab" width="960"/>
+                <img src="9f1c0a466fc7edee3e407e4f5ae0752c0f8ce3fe7722663235a96ee7d32ff183.png" title="Bao Pham clicks for a tab called [[RemoteWebDriver: chrome on XP (8e32127f7ad66742e4122d38259413e4)] -&gt; css selector: #tabs&gt;ul.ui-tabs-nav&gt;li&gt;a]" width="960"/>
+                <img src="scaled_7728f2d3de378199c74c132648370f440104c162aef0383cee58a7b84d90d2f6.png" title="Bao Pham clicks for a tab called [[RemoteWebDriver: chrome on XP (8e32127f7ad66742e4122d38259413e4)] -&gt; css selector: #tabs&gt;ul.ui-tabs-nav&gt;li&gt;a]" width="960"/>
+                <img src="9f1c0a466fc7edee3e407e4f5ae0752c0f8ce3fe7722663235a96ee7d32ff183.png" title="Bao Pham clicks on #target" width="960"/>
+                <img src="7728f2d3de378199c74c132648370f440104c162aef0383cee58a7b84d90d2f6.png" title="Bao Pham clicks on #target" width="960"/>
+                <img src="7728f2d3de378199c74c132648370f440104c162aef0383cee58a7b84d90d2f6.png" title="Then target visibility should be (true)" width="960"/>
+                <img src="7728f2d3de378199c74c132648370f440104c162aef0383cee58a7b84d90d2f6.png" title="Bao Pham clicks for a tab called [[RemoteWebDriver: chrome on XP (8e32127f7ad66742e4122d38259413e4)] -&gt; css selector: #tabs&gt;ul.ui-tabs-nav&gt;li&gt;a]" width="960"/>
+                <img src="scaled_5b71b695c2762c026ea5cbd7a97773a1e72ab949ac8df729c4f21031f19fe981.png" title="Bao Pham clicks for a tab called [[RemoteWebDriver: chrome on XP (8e32127f7ad66742e4122d38259413e4)] -&gt; css selector: #tabs&gt;ul.ui-tabs-nav&gt;li&gt;a]" width="960"/>
+                <img src="7728f2d3de378199c74c132648370f440104c162aef0383cee58a7b84d90d2f6.png" title="Bao Pham clicks on #target" width="960"/>
+                <img src="5b71b695c2762c026ea5cbd7a97773a1e72ab949ac8df729c4f21031f19fe981.png" title="Bao Pham clicks on #target" width="960"/>
+                <img src="5b71b695c2762c026ea5cbd7a97773a1e72ab949ac8df729c4f21031f19fe981.png" title="Then target visibility should be (true)" width="960"/>
+                <img src="5b71b695c2762c026ea5cbd7a97773a1e72ab949ac8df729c4f21031f19fe981.png" title="Bao Pham clicks for a tab called [[RemoteWebDriver: chrome on XP (8e32127f7ad66742e4122d38259413e4)] -&gt; css selector: #tabs&gt;ul.ui-tabs-nav&gt;li&gt;a]" width="960"/>
+                <img src="scaled_467981bf84a2c6451bd399b012275bf716371652ff2e2aa18fea4d04bd6a33b4.png" title="Bao Pham clicks for a tab called [[RemoteWebDriver: chrome on XP (8e32127f7ad66742e4122d38259413e4)] -&gt; css selector: #tabs&gt;ul.ui-tabs-nav&gt;li&gt;a]" width="960"/>
+                <img src="5b71b695c2762c026ea5cbd7a97773a1e72ab949ac8df729c4f21031f19fe981.png" title="Bao Pham clicks on #target" width="960"/>
+                <img src="467981bf84a2c6451bd399b012275bf716371652ff2e2aa18fea4d04bd6a33b4.png" title="Bao Pham clicks on #target" width="960"/>
+                <img src="467981bf84a2c6451bd399b012275bf716371652ff2e2aa18fea4d04bd6a33b4.png" title="Then target visibility should be (true)" width="960"/>
+                <img src="467981bf84a2c6451bd399b012275bf716371652ff2e2aa18fea4d04bd6a33b4.png" title="Bao Pham clicks for a tab called [[RemoteWebDriver: chrome on XP (8e32127f7ad66742e4122d38259413e4)] -&gt; css selector: #tabs&gt;ul.ui-tabs-nav&gt;li&gt;a]" width="960"/>
+                <img src="scaled_93de8b6e3531171ae48c07e4d609eee3dbd7d52f0d97adcb63a675ce85dc612d.png" title="Bao Pham clicks for a tab called [[RemoteWebDriver: chrome on XP (8e32127f7ad66742e4122d38259413e4)] -&gt; css selector: #tabs&gt;ul.ui-tabs-nav&gt;li&gt;a]" width="960"/>
+                <img src="467981bf84a2c6451bd399b012275bf716371652ff2e2aa18fea4d04bd6a33b4.png" title="Bao Pham clicks on #target" width="960"/>
+                <img src="93de8b6e3531171ae48c07e4d609eee3dbd7d52f0d97adcb63a675ce85dc612d.png" title="Bao Pham clicks on #target" width="960"/>
+                <img src="93de8b6e3531171ae48c07e4d609eee3dbd7d52f0d97adcb63a675ce85dc612d.png" title="Then target visibility should be (true)" width="960"/>
+                <img src="93de8b6e3531171ae48c07e4d609eee3dbd7d52f0d97adcb63a675ce85dc612d.png" title="Bao Pham clicks for a tab called [[RemoteWebDriver: chrome on XP (8e32127f7ad66742e4122d38259413e4)] -&gt; css selector: #tabs&gt;ul.ui-tabs-nav&gt;li&gt;a]" width="960"/>
+                <img src="9f1c0a466fc7edee3e407e4f5ae0752c0f8ce3fe7722663235a96ee7d32ff183.png" title="Bao Pham clicks for a tab called [[RemoteWebDriver: chrome on XP (8e32127f7ad66742e4122d38259413e4)] -&gt; css selector: #tabs&gt;ul.ui-tabs-nav&gt;li&gt;a]" width="960"/>
+                <img src="93de8b6e3531171ae48c07e4d609eee3dbd7d52f0d97adcb63a675ce85dc612d.png" title="Bao Pham clicks on #target" width="960"/>
+                <img src="9f1c0a466fc7edee3e407e4f5ae0752c0f8ce3fe7722663235a96ee7d32ff183.png" title="Bao Pham clicks on #target" width="960"/>
+                <img src="9f1c0a466fc7edee3e407e4f5ae0752c0f8ce3fe7722663235a96ee7d32ff183.png" title="Then target visibility should be (true)" width="960"/>
+                <img src="9f1c0a466fc7edee3e407e4f5ae0752c0f8ce3fe7722663235a96ee7d32ff183.png" title="Bao Pham checks for KMS Core Value tab" width="960"/>
+                <img src="5ff7d61dc1cf96e248fd940d6f119d66fe2dac3c9ad46bf8a8520095522aabc7.png" title="Bao Pham checks for KMS Core Value tab" width="960"/>
+                <img src="9f1c0a466fc7edee3e407e4f5ae0752c0f8ce3fe7722663235a96ee7d32ff183.png" title="Bao Pham clicks on Expand All in KMS Core Value tab and check for section content" width="960"/>
+                <img src="scaled_d1f65159ed98c4f2b899fbd665c9d3bc6865aecb54d8a1bb06d0fe0228bc5caf.png" title="Bao Pham clicks on Expand All in KMS Core Value tab and check for section content" width="960"/>
+                <img src="9f1c0a466fc7edee3e407e4f5ae0752c0f8ce3fe7722663235a96ee7d32ff183.png" title="Bao Pham clicks on 'Expand All' link" width="960"/>
+                <img src="scaled_dade3c507bafc0fc1fccee7a30833ab28d3b995c03db5bbdfe64c380997bd25f.png" title="Bao Pham clicks on 'Expand All' link" width="960"/>
+                <img src="d1f65159ed98c4f2b899fbd665c9d3bc6865aecb54d8a1bb06d0fe0228bc5caf.png" title="Then number of section should be (4)" width="960"/>
+                <img src="d1f65159ed98c4f2b899fbd665c9d3bc6865aecb54d8a1bb06d0fe0228bc5caf.png" title="Then section content should be iterable over ['Coaching Ability', 'Knowledge Sharing', 'More comments'] in any order" width="960"/>
+                <img src="d1f65159ed98c4f2b899fbd665c9d3bc6865aecb54d8a1bb06d0fe0228bc5caf.png" title="Then section content should be iterable over ['Commitment', 'Being Open and Honest in all dealing', 'More comments'] in any order" width="960"/>
+                <img src="d1f65159ed98c4f2b899fbd665c9d3bc6865aecb54d8a1bb06d0fe0228bc5caf.png" title="Then section content should be iterable over ['Initiative', 'Adaptability and Flexibility', 'Problem Analysis', 'More comments'] in any order" width="960"/>
+                <img src="d1f65159ed98c4f2b899fbd665c9d3bc6865aecb54d8a1bb06d0fe0228bc5caf.png" title="Then section content should be iterable over ['Quality of Work', 'Customer Service', 'More comments'] in any order" width="960"/>
+                <img src="d1f65159ed98c4f2b899fbd665c9d3bc6865aecb54d8a1bb06d0fe0228bc5caf.png" title="Bao Pham clicks on Collapse All in KMS Core Value tab" width="960"/>
+                <img src="9f1c0a466fc7edee3e407e4f5ae0752c0f8ce3fe7722663235a96ee7d32ff183.png" title="Bao Pham clicks on Collapse All in KMS Core Value tab" width="960"/>
+                <img src="d1f65159ed98c4f2b899fbd665c9d3bc6865aecb54d8a1bb06d0fe0228bc5caf.png" title="Bao Pham clicks on 'Collapse All' link" width="960"/>
+                <img src="9f1c0a466fc7edee3e407e4f5ae0752c0f8ce3fe7722663235a96ee7d32ff183.png" title="Bao Pham clicks on 'Collapse All' link" width="960"/>
+                <img src="9f1c0a466fc7edee3e407e4f5ae0752c0f8ce3fe7722663235a96ee7d32ff183.png" title="Then target visibility should be (false)" width="960"/>
+                <img src="9f1c0a466fc7edee3e407e4f5ae0752c0f8ce3fe7722663235a96ee7d32ff183.png" title="Then target visibility should be (false)" width="960"/>
+                <img src="9f1c0a466fc7edee3e407e4f5ae0752c0f8ce3fe7722663235a96ee7d32ff183.png" title="Then target visibility should be (false)" width="960"/>
+                <img src="9f1c0a466fc7edee3e407e4f5ae0752c0f8ce3fe7722663235a96ee7d32ff183.png" title="Then target visibility should be (false)" width="960"/>
+                <img src="9f1c0a466fc7edee3e407e4f5ae0752c0f8ce3fe7722663235a96ee7d32ff183.png" title="Bao Pham performs actions on each section of KMS Core Value tab" width="960"/>
+                <img src="5ff7d61dc1cf96e248fd940d6f119d66fe2dac3c9ad46bf8a8520095522aabc7.png" title="Bao Pham performs actions on each section of KMS Core Value tab" width="960"/>
+                <img src="9f1c0a466fc7edee3e407e4f5ae0752c0f8ce3fe7722663235a96ee7d32ff183.png" title="Bao Pham clicks open/close icon on section number 0" width="960"/>
+                <img src="scaled_684f9dfb57772bcab75c0bcfb677953667815f4843003a3099ae5b7d36d82f92.png" title="Bao Pham clicks open/close icon on section number 0" width="960"/>
+                <img src="9f1c0a466fc7edee3e407e4f5ae0752c0f8ce3fe7722663235a96ee7d32ff183.png" title="Bao Pham clicks on #target" width="960"/>
+                <img src="scaled_6c4ed208653ad141d596421b03d92ca306bde81a8d6fce611581b72f7d0a2a03.png" title="Bao Pham clicks on #target" width="960"/>
+                <img src="684f9dfb57772bcab75c0bcfb677953667815f4843003a3099ae5b7d36d82f92.png" title="Then target visibility should be (true)" width="960"/>
+                <img src="684f9dfb57772bcab75c0bcfb677953667815f4843003a3099ae5b7d36d82f92.png" title="Then icon background image should be a string containing 'minus'" width="960"/>
+                <img src="684f9dfb57772bcab75c0bcfb677953667815f4843003a3099ae5b7d36d82f92.png" title="Bao Pham enter value into [[RemoteWebDriver: chrome on XP (8e32127f7ad66742e4122d38259413e4)] -&gt; css selector: #main-tab0 iframe]" width="960"/>
+                <img src="scaled_399359b554535dc37f02afec7e17939313dd7ff6bcf26794035330f633c37452.png" title="Bao Pham enter value into [[RemoteWebDriver: chrome on XP (8e32127f7ad66742e4122d38259413e4)] -&gt; css selector: #main-tab0 iframe]" width="960"/>
+                <img src="684f9dfb57772bcab75c0bcfb677953667815f4843003a3099ae5b7d36d82f92.png" title="Bao Pham clicks on #target" width="960"/>
+                <img src="scaled_d6ce691591dced0a6d0b6e2705f67b19c9c4f798d7ba00c134578c996a9a4bac.png" title="Bao Pham clicks on #target" width="960"/>
+                <img src="d6ce691591dced0a6d0b6e2705f67b19c9c4f798d7ba00c134578c996a9a4bac.png" title="Bao Pham sends key with content of Test test test to Section body" width="960"/>
+                <img src="scaled_f302745879593e28c304e2b43eb31762fd0dca68944225382169d3f969532b17.png" title="Bao Pham sends key with content of Test test test to Section body" width="960"/>
+                <img src="f302745879593e28c304e2b43eb31762fd0dca68944225382169d3f969532b17.png" title="Then li size should be (1)" width="960"/>
+                <img src="scaled_4bd7bc622522045b32b51d3ee70123522a1d66aa0625cbf4a0c187d1725ea3a9.png" title="Then li size should be (1)" width="960"/>
+                <img src="f302745879593e28c304e2b43eb31762fd0dca68944225382169d3f969532b17.png" title="Bao Pham clicks on #target" width="960"/>
+                <img src="scaled_0b5efdf72733339eae23a17fe9fce70eb865c8bd34137e5490d5c4ff87ce7f00.png" title="Bao Pham clicks on #target" width="960"/>
+                <img src="0b5efdf72733339eae23a17fe9fce70eb865c8bd34137e5490d5c4ff87ce7f00.png" title="Bao Pham sends key with content of Test test test to Section body" width="960"/>
+                <img src="scaled_02b721372d73e2c3bf80df1cb65c19f2d4ba4dfd908975a7fb8abfed05169dc9.png" title="Bao Pham sends key with content of Test test test to Section body" width="960"/>
+                <img src="02b721372d73e2c3bf80df1cb65c19f2d4ba4dfd908975a7fb8abfed05169dc9.png" title="Then li size should be (1)" width="960"/>
+                <img src="scaled_fcb94f55852e9557702b74ca483faed0d6540434f0b7165a54200fcbea20f295.png" title="Then li size should be (1)" width="960"/>
+                <img src="02b721372d73e2c3bf80df1cb65c19f2d4ba4dfd908975a7fb8abfed05169dc9.png" title="Bao Pham clicks on #target" width="960"/>
+                <img src="scaled_0c8068d149470712debf9daa2f8e34bac7176846ec8a52394b5e19bd39438c1b.png" title="Bao Pham clicks on #target" width="960"/>
+                <img src="0c8068d149470712debf9daa2f8e34bac7176846ec8a52394b5e19bd39438c1b.png" title="Bao Pham sends key with content of Test test test to Section body" width="960"/>
+                <img src="scaled_1e0a5afdad8e799c28dfb067035064b699fde2ea1ecb353f0dc564283dbe69e4.png" title="Bao Pham sends key with content of Test test test to Section body" width="960"/>
+                <img src="1e0a5afdad8e799c28dfb067035064b699fde2ea1ecb353f0dc564283dbe69e4.png" title="Then li size should be (1)" width="960"/>
+                <img src="399359b554535dc37f02afec7e17939313dd7ff6bcf26794035330f633c37452.png" title="Then li size should be (1)" width="960"/>
+                <img src="1e0a5afdad8e799c28dfb067035064b699fde2ea1ecb353f0dc564283dbe69e4.png" title="Bao Pham clicks open/close icon on section number 0" width="960"/>
+                <img src="scaled_ef7bda2f3e3fdd7c38e0151114649f7199decf6e6511bb0fdd1d400f42a1c3a7.png" title="Bao Pham clicks open/close icon on section number 0" width="960"/>
+                <img src="1e0a5afdad8e799c28dfb067035064b699fde2ea1ecb353f0dc564283dbe69e4.png" title="Bao Pham clicks on #target" width="960"/>
+                <img src="scaled_d30152109ac0775515becdfa5a6c4cc98ad6dfbc1fa2f1c6dfe7b1a62ead4a5d.png" title="Bao Pham clicks on #target" width="960"/>
+                <img src="ef7bda2f3e3fdd7c38e0151114649f7199decf6e6511bb0fdd1d400f42a1c3a7.png" title="Then target visibility should be (false)" width="960"/>
+                <img src="ef7bda2f3e3fdd7c38e0151114649f7199decf6e6511bb0fdd1d400f42a1c3a7.png" title="Then icon background image should be a string containing 'plus'" width="960"/>
+                <img src="ef7bda2f3e3fdd7c38e0151114649f7199decf6e6511bb0fdd1d400f42a1c3a7.png" title="Bao Pham clicks open/close icon on section number 1" width="960"/>
+                <img src="scaled_8283766d783885e0e84e748e6717df14b1e1c54a649ec63d1e65289b47f7ea43.png" title="Bao Pham clicks open/close icon on section number 1" width="960"/>
+                <img src="ef7bda2f3e3fdd7c38e0151114649f7199decf6e6511bb0fdd1d400f42a1c3a7.png" title="Bao Pham clicks on #target" width="960"/>
+                <img src="scaled_8031c903859af32f7df343d231a2808e5a262e52bf4f8b83a618e7ba0d8262da.png" title="Bao Pham clicks on #target" width="960"/>
+                <img src="8283766d783885e0e84e748e6717df14b1e1c54a649ec63d1e65289b47f7ea43.png" title="Then target visibility should be (true)" width="960"/>
+                <img src="8283766d783885e0e84e748e6717df14b1e1c54a649ec63d1e65289b47f7ea43.png" title="Then icon background image should be a string containing 'minus'" width="960"/>
+                <img src="8283766d783885e0e84e748e6717df14b1e1c54a649ec63d1e65289b47f7ea43.png" title="Bao Pham enter value into [[RemoteWebDriver: chrome on XP (8e32127f7ad66742e4122d38259413e4)] -&gt; css selector: #main-tab0 iframe]" width="960"/>
+                <img src="scaled_23ee97cc623189c9f0cfb143709950b752edf8ba2303f45d6b80ff7c23c004c6.png" title="Bao Pham enter value into [[RemoteWebDriver: chrome on XP (8e32127f7ad66742e4122d38259413e4)] -&gt; css selector: #main-tab0 iframe]" width="960"/>
+                <img src="8283766d783885e0e84e748e6717df14b1e1c54a649ec63d1e65289b47f7ea43.png" title="Bao Pham clicks on #target" width="960"/>
+                <img src="scaled_f920e10fc3386edace238587d3cc4a7738099dd13794dd3c41aa144358e252c5.png" title="Bao Pham clicks on #target" width="960"/>
+                <img src="f920e10fc3386edace238587d3cc4a7738099dd13794dd3c41aa144358e252c5.png" title="Bao Pham sends key with content of Test test test to Section body" width="960"/>
+                <img src="scaled_b09e7f898d00d00a8791b4eb66f8cabc39da3906f12786a413667970d14976b9.png" title="Bao Pham sends key with content of Test test test to Section body" width="960"/>
+                <img src="b09e7f898d00d00a8791b4eb66f8cabc39da3906f12786a413667970d14976b9.png" title="Then li size should be (1)" width="960"/>
+                <img src="scaled_966609cb37686c15762ab1cbf2a9287901616f282be7d20b4f747da4af13a0e2.png" title="Then li size should be (1)" width="960"/>
+                <img src="966609cb37686c15762ab1cbf2a9287901616f282be7d20b4f747da4af13a0e2.png" title="Bao Pham clicks on #target" width="960"/>
+                <img src="scaled_b850f0fea8395d82c79b141fd2b539d546baa6e1d2623930cce8d29f4356142e.png" title="Bao Pham clicks on #target" width="960"/>
+                <img src="b850f0fea8395d82c79b141fd2b539d546baa6e1d2623930cce8d29f4356142e.png" title="Bao Pham sends key with content of Test test test to Section body" width="960"/>
+                <img src="scaled_c93ec9abaf35ff242f15a41dc1dc0b6c211772bf94f8084de97d11ebe929a505.png" title="Bao Pham sends key with content of Test test test to Section body" width="960"/>
+                <img src="c93ec9abaf35ff242f15a41dc1dc0b6c211772bf94f8084de97d11ebe929a505.png" title="Then li size should be (1)" width="960"/>
+                <img src="scaled_056a63aead2c89a0f4aefa30d03ba23a5a47d6d88fd06d141472bc521353e5bc.png" title="Then li size should be (1)" width="960"/>
+                <img src="c93ec9abaf35ff242f15a41dc1dc0b6c211772bf94f8084de97d11ebe929a505.png" title="Bao Pham clicks on #target" width="960"/>
+                <img src="scaled_802e4b712b0ec937c2ba48b2e2d33a53a77e1d3ab0aa752c7942d6dd8690e1c1.png" title="Bao Pham clicks on #target" width="960"/>
+                <img src="056a63aead2c89a0f4aefa30d03ba23a5a47d6d88fd06d141472bc521353e5bc.png" title="Bao Pham sends key with content of Test test test to Section body" width="960"/>
+                <img src="scaled_22576ea93e78f20adac9010120a4ff1e9c0ad71495cf7dbedf9c6bd4669622ca.png" title="Bao Pham sends key with content of Test test test to Section body" width="960"/>
+                <img src="22576ea93e78f20adac9010120a4ff1e9c0ad71495cf7dbedf9c6bd4669622ca.png" title="Then li size should be (1)" width="960"/>
+                <img src="23ee97cc623189c9f0cfb143709950b752edf8ba2303f45d6b80ff7c23c004c6.png" title="Then li size should be (1)" width="960"/>
+                <img src="22576ea93e78f20adac9010120a4ff1e9c0ad71495cf7dbedf9c6bd4669622ca.png" title="Bao Pham clicks open/close icon on section number 1" width="960"/>
+                <img src="64f49fc3d14e6e2073c7ba8012d94b91d406d242532e39b93c68d41ec899c0a7.png" title="Bao Pham clicks open/close icon on section number 1" width="960"/>
+                <img src="23ee97cc623189c9f0cfb143709950b752edf8ba2303f45d6b80ff7c23c004c6.png" title="Bao Pham clicks on #target" width="960"/>
+                <img src="scaled_9723840b2968a534734de52d910b89d5c81220ec87ea4f310724dd41888da194.png" title="Bao Pham clicks on #target" width="960"/>
+                <img src="64f49fc3d14e6e2073c7ba8012d94b91d406d242532e39b93c68d41ec899c0a7.png" title="Then target visibility should be (false)" width="960"/>
+                <img src="64f49fc3d14e6e2073c7ba8012d94b91d406d242532e39b93c68d41ec899c0a7.png" title="Then icon background image should be a string containing 'plus'" width="960"/>
+                <img src="64f49fc3d14e6e2073c7ba8012d94b91d406d242532e39b93c68d41ec899c0a7.png" title="Bao Pham clicks open/close icon on section number 2" width="960"/>
+                <img src="e0af720b759ab8090c5530a5349eb29d973257f99554829eb3b94935da475496.png" title="Bao Pham clicks open/close icon on section number 2" width="960"/>
+                <img src="64f49fc3d14e6e2073c7ba8012d94b91d406d242532e39b93c68d41ec899c0a7.png" title="Bao Pham clicks on #target" width="960"/>
+                <img src="scaled_046767e90b0b8e932c2d7d2613a77836ec00f39eabf6ab881a2bebdc20c9fbc7.png" title="Bao Pham clicks on #target" width="960"/>
+                <img src="e0af720b759ab8090c5530a5349eb29d973257f99554829eb3b94935da475496.png" title="Then target visibility should be (true)" width="960"/>
+                <img src="e0af720b759ab8090c5530a5349eb29d973257f99554829eb3b94935da475496.png" title="Then icon background image should be a string containing 'minus'" width="960"/>
+                <img src="e0af720b759ab8090c5530a5349eb29d973257f99554829eb3b94935da475496.png" title="Bao Pham enter value into [[RemoteWebDriver: chrome on XP (8e32127f7ad66742e4122d38259413e4)] -&gt; css selector: #main-tab0 iframe]" width="960"/>
+                <img src="3e100a13545c5321141bde9b663d4c9629ffe215ac242934b28ba5a494057bad.png" title="Bao Pham enter value into [[RemoteWebDriver: chrome on XP (8e32127f7ad66742e4122d38259413e4)] -&gt; css selector: #main-tab0 iframe]" width="960"/>
+                <img src="e0af720b759ab8090c5530a5349eb29d973257f99554829eb3b94935da475496.png" title="Bao Pham clicks on #target" width="960"/>
+                <img src="f87d2d8d24beda831265752d0cf273deffd8174f1ce35264d1e773b279bb2d6a.png" title="Bao Pham clicks on #target" width="960"/>
+                <img src="f87d2d8d24beda831265752d0cf273deffd8174f1ce35264d1e773b279bb2d6a.png" title="Bao Pham sends key with content of Test test test to Section body" width="960"/>
+                <img src="816fe7b54df87423070d86e7de7ef238ec5674bdb04a2820e02b2fce96fbef59.png" title="Bao Pham sends key with content of Test test test to Section body" width="960"/>
+                <img src="816fe7b54df87423070d86e7de7ef238ec5674bdb04a2820e02b2fce96fbef59.png" title="Then li size should be (1)" width="960"/>
+                <img src="eb7aca72e1c0fa5025a7b1937d915e990cb403ae4fd7482fffd98d12316d007f.png" title="Then li size should be (1)" width="960"/>
+                <img src="816fe7b54df87423070d86e7de7ef238ec5674bdb04a2820e02b2fce96fbef59.png" title="Bao Pham clicks on #target" width="960"/>
+                <img src="2fa6d59933d96cceeb84aae08afcdbd7590c698a9c3e5af3b02f656634f45d1e.png" title="Bao Pham clicks on #target" width="960"/>
+                <img src="2fa6d59933d96cceeb84aae08afcdbd7590c698a9c3e5af3b02f656634f45d1e.png" title="Bao Pham sends key with content of Test test test to Section body" width="960"/>
+                <img src="14d67509542e7359cd9db31d0e827ebccb0aacd1561555d95b2f34972f721d7e.png" title="Bao Pham sends key with content of Test test test to Section body" width="960"/>
+                <img src="14d67509542e7359cd9db31d0e827ebccb0aacd1561555d95b2f34972f721d7e.png" title="Then li size should be (1)" width="960"/>
+                <img src="adc43eb515341ac0d8fea12af78bf7269eb4ead2ef75a2495dab5a13ff622294.png" title="Then li size should be (1)" width="960"/>
+                <img src="14d67509542e7359cd9db31d0e827ebccb0aacd1561555d95b2f34972f721d7e.png" title="Bao Pham clicks on #target" width="960"/>
+                <img src="648426fe5409470868546e7352614c670521fb4f42d88d09b488664cfb4cfaf7.png" title="Bao Pham clicks on #target" width="960"/>
+                <img src="648426fe5409470868546e7352614c670521fb4f42d88d09b488664cfb4cfaf7.png" title="Bao Pham sends key with content of Test test test to Section body" width="960"/>
+                <img src="f07676e4917c43b54bb3508a74668fd5ae8fd2f18a05760c59f588f270d5e953.png" title="Bao Pham sends key with content of Test test test to Section body" width="960"/>
+                <img src="f07676e4917c43b54bb3508a74668fd5ae8fd2f18a05760c59f588f270d5e953.png" title="Then li size should be (1)" width="960"/>
+                <img src="d0a60a38476a239e87bdfc932445e7e313d322164686e155e09dc81979857341.png" title="Then li size should be (1)" width="960"/>
+                <img src="f07676e4917c43b54bb3508a74668fd5ae8fd2f18a05760c59f588f270d5e953.png" title="Bao Pham clicks on #target" width="960"/>
+                <img src="53a213fa12dd051ff62625d3a7bbdca1ebff3fd79c53e1170ca55f69bd025c7f.png" title="Bao Pham clicks on #target" width="960"/>
+                <img src="53a213fa12dd051ff62625d3a7bbdca1ebff3fd79c53e1170ca55f69bd025c7f.png" title="Bao Pham sends key with content of Test test test to Section body" width="960"/>
+                <img src="01a47da1aab338bf7cbb367c358afab0292f885f62a12a2174c478df241f0f7a.png" title="Bao Pham sends key with content of Test test test to Section body" width="960"/>
+                <img src="01a47da1aab338bf7cbb367c358afab0292f885f62a12a2174c478df241f0f7a.png" title="Then li size should be (1)" width="960"/>
+                <img src="3e100a13545c5321141bde9b663d4c9629ffe215ac242934b28ba5a494057bad.png" title="Then li size should be (1)" width="960"/>
+                <img src="01a47da1aab338bf7cbb367c358afab0292f885f62a12a2174c478df241f0f7a.png" title="Bao Pham clicks open/close icon on section number 2" width="960"/>
+                <img src="e95031c8d2a01ebbe3729c0945ce14c48cbbec0b791a4f5e8ae478f3cde4cdd2.png" title="Bao Pham clicks open/close icon on section number 2" width="960"/>
+                <img src="3e100a13545c5321141bde9b663d4c9629ffe215ac242934b28ba5a494057bad.png" title="Bao Pham clicks on #target" width="960"/>
+                <img src="scaled_27565829d3daa509c1feb81134d8aff83e9ae09d5ad5c008ccd062d8215b4eb0.png" title="Bao Pham clicks on #target" width="960"/>
+                <img src="scaled_8597a0ddfb21bc895d061b45b62ad8a19832271c029dea6be153749d81d45580.png" title="Then target visibility should be (false)" width="960"/>
+                <img src="e95031c8d2a01ebbe3729c0945ce14c48cbbec0b791a4f5e8ae478f3cde4cdd2.png" title="Then target visibility should be (false)" width="960"/>
+                <img src="e95031c8d2a01ebbe3729c0945ce14c48cbbec0b791a4f5e8ae478f3cde4cdd2.png" title="Then icon background image should be a string containing 'plus'" width="960"/>
+                <img src="e95031c8d2a01ebbe3729c0945ce14c48cbbec0b791a4f5e8ae478f3cde4cdd2.png" title="Bao Pham clicks open/close icon on section number 3" width="960"/>
+                <img src="8e77dfab58fb046de40b06b09f39a44e722a653ead7fbaac212fc7f2f146bfdd.png" title="Bao Pham clicks open/close icon on section number 3" width="960"/>
+                <img src="e95031c8d2a01ebbe3729c0945ce14c48cbbec0b791a4f5e8ae478f3cde4cdd2.png" title="Bao Pham clicks on #target" width="960"/>
+                <img src="scaled_5701819de66e03e074382ee445ff3f66d108607d15e96d5a17d457057a9c2964.png" title="Bao Pham clicks on #target" width="960"/>
+                <img src="8e77dfab58fb046de40b06b09f39a44e722a653ead7fbaac212fc7f2f146bfdd.png" title="Then target visibility should be (true)" width="960"/>
+                <img src="8e77dfab58fb046de40b06b09f39a44e722a653ead7fbaac212fc7f2f146bfdd.png" title="Then icon background image should be a string containing 'minus'" width="960"/>
+                <img src="8e77dfab58fb046de40b06b09f39a44e722a653ead7fbaac212fc7f2f146bfdd.png" title="Bao Pham enter value into [[RemoteWebDriver: chrome on XP (8e32127f7ad66742e4122d38259413e4)] -&gt; css selector: #main-tab0 iframe]" width="960"/>
+                <img src="7ccdc73d4cfa0b624cfb20dc5249efa8b7bcb1699fc5382bb0cfe1d577875852.png" title="Bao Pham enter value into [[RemoteWebDriver: chrome on XP (8e32127f7ad66742e4122d38259413e4)] -&gt; css selector: #main-tab0 iframe]" width="960"/>
+                <img src="8e77dfab58fb046de40b06b09f39a44e722a653ead7fbaac212fc7f2f146bfdd.png" title="Bao Pham clicks on #target" width="960"/>
+                <img src="60d8f0f590defed189836e314494493900c639e70368c2d9700b83fd3798b45a.png" title="Bao Pham clicks on #target" width="960"/>
+                <img src="60d8f0f590defed189836e314494493900c639e70368c2d9700b83fd3798b45a.png" title="Bao Pham sends key with content of Test test test to Section body" width="960"/>
+                <img src="c509d476b0a9ea7cd4260deb6c77dd0b25531b1cc1c94738c0dc9ee2ba8a305c.png" title="Bao Pham sends key with content of Test test test to Section body" width="960"/>
+                <img src="c509d476b0a9ea7cd4260deb6c77dd0b25531b1cc1c94738c0dc9ee2ba8a305c.png" title="Then li size should be (1)" width="960"/>
+                <img src="1dda8c2bb4b1fc28712398bddf9244a31b6c5279eb7fd99e1663ae3164879fb0.png" title="Then li size should be (1)" width="960"/>
+                <img src="c509d476b0a9ea7cd4260deb6c77dd0b25531b1cc1c94738c0dc9ee2ba8a305c.png" title="Bao Pham clicks on #target" width="960"/>
+                <img src="577a2162d6726378953444e5235478beb0b7fef5c666e0cf88b7f7a18146848a.png" title="Bao Pham clicks on #target" width="960"/>
+                <img src="577a2162d6726378953444e5235478beb0b7fef5c666e0cf88b7f7a18146848a.png" title="Bao Pham sends key with content of Test test test to Section body" width="960"/>
+                <img src="b8c3724ad1f7bc603a566f2f838a6b416bd7e03ec9f3efc3cf4bda075903e2fd.png" title="Bao Pham sends key with content of Test test test to Section body" width="960"/>
+                <img src="b8c3724ad1f7bc603a566f2f838a6b416bd7e03ec9f3efc3cf4bda075903e2fd.png" title="Then li size should be (1)" width="960"/>
+                <img src="24a9e009280d68889ed437fa48f8a6ff7cc719de36e6072668ce7222e0c1b2e9.png" title="Then li size should be (1)" width="960"/>
+                <img src="b8c3724ad1f7bc603a566f2f838a6b416bd7e03ec9f3efc3cf4bda075903e2fd.png" title="Bao Pham clicks on #target" width="960"/>
+                <img src="addeaac556945bb60445022914a59a3478977d6d0f709be243d50b2957387b14.png" title="Bao Pham clicks on #target" width="960"/>
+                <img src="addeaac556945bb60445022914a59a3478977d6d0f709be243d50b2957387b14.png" title="Bao Pham sends key with content of Test test test to Section body" width="960"/>
+                <img src="f64bc1c441ce5aab222d7680c3cfb636aeb51ddb43afbed44e3f8336302f12cc.png" title="Bao Pham sends key with content of Test test test to Section body" width="960"/>
+                <img src="f64bc1c441ce5aab222d7680c3cfb636aeb51ddb43afbed44e3f8336302f12cc.png" title="Then li size should be (1)" width="960"/>
+                <img src="7ccdc73d4cfa0b624cfb20dc5249efa8b7bcb1699fc5382bb0cfe1d577875852.png" title="Then li size should be (1)" width="960"/>
+                <img src="f64bc1c441ce5aab222d7680c3cfb636aeb51ddb43afbed44e3f8336302f12cc.png" title="Bao Pham clicks open/close icon on section number 3" width="960"/>
+                <img src="5ff7d61dc1cf96e248fd940d6f119d66fe2dac3c9ad46bf8a8520095522aabc7.png" title="Bao Pham clicks open/close icon on section number 3" width="960"/>
+                <img src="f64bc1c441ce5aab222d7680c3cfb636aeb51ddb43afbed44e3f8336302f12cc.png" title="Bao Pham clicks on #target" width="960"/>
+                <img src="scaled_d164c13155e6134031a51ebfd1c32994930a39f38cd489e284e41318cd1b9c20.png" title="Bao Pham clicks on #target" width="960"/>
+                <img src="5ff7d61dc1cf96e248fd940d6f119d66fe2dac3c9ad46bf8a8520095522aabc7.png" title="Then target visibility should be (false)" width="960"/>
+                <img src="5ff7d61dc1cf96e248fd940d6f119d66fe2dac3c9ad46bf8a8520095522aabc7.png" title="Then icon background image should be a string containing 'plus'" width="960"/>
+                <img src="5ff7d61dc1cf96e248fd940d6f119d66fe2dac3c9ad46bf8a8520095522aabc7.png" title="Bao Pham click on button Save in feedback page" width="960"/>
+                <img src="c302b94f7b98d79bbcd8b190f25f4d1ac8f2f5e041035b88cf1d72681b38dbce.png" title="Bao Pham click on button Save in feedback page" width="960"/>
+                <img src="5ff7d61dc1cf96e248fd940d6f119d66fe2dac3c9ad46bf8a8520095522aabc7.png" title="Bao Pham clicks on Save button" width="960"/>
+                <img src="c302b94f7b98d79bbcd8b190f25f4d1ac8f2f5e041035b88cf1d72681b38dbce.png" title="Bao Pham clicks on Save button" width="960"/>
+                <img src="c302b94f7b98d79bbcd8b190f25f4d1ac8f2f5e041035b88cf1d72681b38dbce.png" title="Then the title of the page should be 'Search Feedbacks | PA Tool'" width="960"/>
+                <img src="c302b94f7b98d79bbcd8b190f25f4d1ac8f2f5e041035b88cf1d72681b38dbce.png" title="Bao Pham searches for feedback with filters View options: Feedbacks for Me and expected paging #paging" width="960"/>
+                <img src="499c1bd25ae70844191cd3f557da5e9f7c57a823eb3450df93abf2971deac97d.png" title="Bao Pham searches for feedback with filters View options: Feedbacks for Me and expected paging #paging" width="960"/>
+                <img src="c302b94f7b98d79bbcd8b190f25f4d1ac8f2f5e041035b88cf1d72681b38dbce.png" title="Bao Pham enters search feedback menu page" width="960"/>
+                <img src="c302b94f7b98d79bbcd8b190f25f4d1ac8f2f5e041035b88cf1d72681b38dbce.png" title="Bao Pham chooses a list of menu items: ['View Feedbacks' menu, 'Search All' menu]" width="960"/>
+                <img src="c302b94f7b98d79bbcd8b190f25f4d1ac8f2f5e041035b88cf1d72681b38dbce.png" title="Bao Pham hovers on element 'View Feedbacks' menu" width="960"/>
+                <img src="0ccd4a8977c124d87274c13d7ddfbebbbdb9b3c59b1ff1621d862e557b5f1fad.png" title="Bao Pham hovers on element 'View Feedbacks' menu" width="960"/>
+                <img src="0ccd4a8977c124d87274c13d7ddfbebbbdb9b3c59b1ff1621d862e557b5f1fad.png" title="Bao Pham clicks on 'Search All' menu" width="960"/>
+                <img src="c302b94f7b98d79bbcd8b190f25f4d1ac8f2f5e041035b88cf1d72681b38dbce.png" title="Bao Pham clicks on 'Search All' menu" width="960"/>
+                <img src="c302b94f7b98d79bbcd8b190f25f4d1ac8f2f5e041035b88cf1d72681b38dbce.png" title="Bao Pham filters the feedback conditions" width="960"/>
+                <img src="0b9745675a46f16dd207a14277438a8a4258a013750cc2887b550a1adccf93a4.png" title="Bao Pham filters the feedback conditions" width="960"/>
+                <img src="c302b94f7b98d79bbcd8b190f25f4d1ac8f2f5e041035b88cf1d72681b38dbce.png" title="Bao Pham clicks on View option select" width="960"/>
+                <img src="0b9745675a46f16dd207a14277438a8a4258a013750cc2887b550a1adccf93a4.png" title="Bao Pham clicks on View option select" width="960"/>
+                <img src="0b9745675a46f16dd207a14277438a8a4258a013750cc2887b550a1adccf93a4.png" title="Then search button enabled should be (true)" width="960"/>
+                <img src="0b9745675a46f16dd207a14277438a8a4258a013750cc2887b550a1adccf93a4.png" title="Bao Pham clicks on Search button" width="960"/>
+                <img src="499c1bd25ae70844191cd3f557da5e9f7c57a823eb3450df93abf2971deac97d.png" title="Bao Pham clicks on Search button" width="960"/>
+                <img src="0b9745675a46f16dd207a14277438a8a4258a013750cc2887b550a1adccf93a4.png" title="Bao Pham clicks on Search feedback button" width="960"/>
+                <img src="scaled_a93a2896e3eda502b7dbcf1537ddc94433a20e49dca4a7951d3e6711bae2183b.png" title="Bao Pham clicks on Search feedback button" width="960"/>
+                <img src="scaled_cf510f09be6f78b5899f3b5f2fc4b074d601548194954ab8e0a0a181f1e719ff.png" title="Then the noti message should be 'Search sucessfully.'" width="960"/>
+                <img src="499c1bd25ae70844191cd3f557da5e9f7c57a823eb3450df93abf2971deac97d.png" title="Then the noti message should be 'Search sucessfully.'" width="960"/>
+                <img src="499c1bd25ae70844191cd3f557da5e9f7c57a823eb3450df93abf2971deac97d.png" title="Then headers info should be iterable over ['Receiver', 'Date (m/d/y)', 'Status', 'Is Shared', 'Provider'] in any order" width="960"/>
+                <img src="499c1bd25ae70844191cd3f557da5e9f7c57a823eb3450df93abf2971deac97d.png" title="Then first item status should be 'Draft'" width="960"/>
+                <img src="scaled_cbe668c3ece0695f302c2e2c33894adab88f58fae7d8d3999bbcdedfc9c56e6e.png" title="Bao Pham selects first item in feedback result table and click open button" width="960"/>
+                <img src="scaled_8b3643932a7b0e1b08a5027e3efb4496b09f6f409fc613e9b16ebdbd0cf58926.png" title="Bao Pham clicks on Feedback row" width="960"/>
+                <img src="8b3643932a7b0e1b08a5027e3efb4496b09f6f409fc613e9b16ebdbd0cf58926.png" title="Bao Pham clicks on #open" width="960"/>
+                <img src="scaled_6d64a45eaffcd86445afafcc00bec00b6a8e60c6b3c3f156c0e6aa023afb6f9a.png" title="Bao Pham click Edit button on Feedback Detail page and check for general information" width="960"/>
+                <img src="6d64a45eaffcd86445afafcc00bec00b6a8e60c6b3c3f156c0e6aa023afb6f9a.png" title="Bao Pham clicks on Edit button" width="960"/>
+                <img src="6d64a45eaffcd86445afafcc00bec00b6a8e60c6b3c3f156c0e6aa023afb6f9a.png" title="Then general feedback information" width="960"/>
+                <img src="6d64a45eaffcd86445afafcc00bec00b6a8e60c6b3c3f156c0e6aa023afb6f9a.png" title="Then chosen provide feedback for should be 'Myself'" width="960"/>
+                <img src="6d64a45eaffcd86445afafcc00bec00b6a8e60c6b3c3f156c0e6aa023afb6f9a.png" title="Then displayed date should be '03/30/2017'" width="960"/>
+                <img src="6d64a45eaffcd86445afafcc00bec00b6a8e60c6b3c3f156c0e6aa023afb6f9a.png" title="Then chosen employee should be 'Bao Tran Thai Pham'" width="960"/>
+                <img src="6d64a45eaffcd86445afafcc00bec00b6a8e60c6b3c3f156c0e6aa023afb6f9a.png" title="Then feedback status should be 'Draft'" width="960"/>
+                <img src="6d64a45eaffcd86445afafcc00bec00b6a8e60c6b3c3f156c0e6aa023afb6f9a.png" title="Then default number of tabs and selected tab" width="960"/>
+                <img src="6d64a45eaffcd86445afafcc00bec00b6a8e60c6b3c3f156c0e6aa023afb6f9a.png" title="Then number of tabs dipslayed should be (4)" width="960"/>
+                <img src="6d64a45eaffcd86445afafcc00bec00b6a8e60c6b3c3f156c0e6aa023afb6f9a.png" title="Then selected tab should be 'KMS Core Values'" width="960"/>
+                <img src="6d64a45eaffcd86445afafcc00bec00b6a8e60c6b3c3f156c0e6aa023afb6f9a.png" title="Bao Pham clicks on each tab to check visibilit and then return to first tab" width="960"/>
+                <img src="6d64a45eaffcd86445afafcc00bec00b6a8e60c6b3c3f156c0e6aa023afb6f9a.png" title="Bao Pham clicks for a tab called [[RemoteWebDriver: chrome on XP (8e32127f7ad66742e4122d38259413e4)] -&gt; css selector: #tabs&gt;ul.ui-tabs-nav&gt;li&gt;a]" width="960"/>
+                <img src="6d64a45eaffcd86445afafcc00bec00b6a8e60c6b3c3f156c0e6aa023afb6f9a.png" title="Bao Pham clicks on #target" width="960"/>
+                <img src="6d64a45eaffcd86445afafcc00bec00b6a8e60c6b3c3f156c0e6aa023afb6f9a.png" title="Then target visibility should be (true)" width="960"/>
+                <img src="scaled_fe86807457fd183520e6eb2468c9491043ea2df03be35fc56783526a3fe8551c.png" title="Bao Pham clicks for a tab called [[RemoteWebDriver: chrome on XP (8e32127f7ad66742e4122d38259413e4)] -&gt; css selector: #tabs&gt;ul.ui-tabs-nav&gt;li&gt;a]" width="960"/>
+                <img src="fe86807457fd183520e6eb2468c9491043ea2df03be35fc56783526a3fe8551c.png" title="Bao Pham clicks on #target" width="960"/>
+                <img src="fe86807457fd183520e6eb2468c9491043ea2df03be35fc56783526a3fe8551c.png" title="Then target visibility should be (true)" width="960"/>
+                <img src="fe86807457fd183520e6eb2468c9491043ea2df03be35fc56783526a3fe8551c.png" title="Bao Pham clicks for a tab called [[RemoteWebDriver: chrome on XP (8e32127f7ad66742e4122d38259413e4)] -&gt; css selector: #tabs&gt;ul.ui-tabs-nav&gt;li&gt;a]" width="960"/>
+                <img src="scaled_ac3e2f24b1fb4f5a0eafe9711ba95bef2521eb9ee0a25d34410a6b613f018082.png" title="Bao Pham clicks for a tab called [[RemoteWebDriver: chrome on XP (8e32127f7ad66742e4122d38259413e4)] -&gt; css selector: #tabs&gt;ul.ui-tabs-nav&gt;li&gt;a]" width="960"/>
+                <img src="fe86807457fd183520e6eb2468c9491043ea2df03be35fc56783526a3fe8551c.png" title="Bao Pham clicks on #target" width="960"/>
+                <img src="ac3e2f24b1fb4f5a0eafe9711ba95bef2521eb9ee0a25d34410a6b613f018082.png" title="Bao Pham clicks on #target" width="960"/>
+                <img src="ac3e2f24b1fb4f5a0eafe9711ba95bef2521eb9ee0a25d34410a6b613f018082.png" title="Then target visibility should be (true)" width="960"/>
+                <img src="ac3e2f24b1fb4f5a0eafe9711ba95bef2521eb9ee0a25d34410a6b613f018082.png" title="Bao Pham clicks for a tab called [[RemoteWebDriver: chrome on XP (8e32127f7ad66742e4122d38259413e4)] -&gt; css selector: #tabs&gt;ul.ui-tabs-nav&gt;li&gt;a]" width="960"/>
+                <img src="scaled_1d83c4b3647aff07742b22912df6bdd72f59900456a9f57fca84fece5433be3e.png" title="Bao Pham clicks for a tab called [[RemoteWebDriver: chrome on XP (8e32127f7ad66742e4122d38259413e4)] -&gt; css selector: #tabs&gt;ul.ui-tabs-nav&gt;li&gt;a]" width="960"/>
+                <img src="ac3e2f24b1fb4f5a0eafe9711ba95bef2521eb9ee0a25d34410a6b613f018082.png" title="Bao Pham clicks on #target" width="960"/>
+                <img src="1d83c4b3647aff07742b22912df6bdd72f59900456a9f57fca84fece5433be3e.png" title="Bao Pham clicks on #target" width="960"/>
+                <img src="1d83c4b3647aff07742b22912df6bdd72f59900456a9f57fca84fece5433be3e.png" title="Then target visibility should be (true)" width="960"/>
+                <img src="1d83c4b3647aff07742b22912df6bdd72f59900456a9f57fca84fece5433be3e.png" title="Bao Pham clicks for a tab called [[RemoteWebDriver: chrome on XP (8e32127f7ad66742e4122d38259413e4)] -&gt; css selector: #tabs&gt;ul.ui-tabs-nav&gt;li&gt;a]" width="960"/>
+                <img src="6d64a45eaffcd86445afafcc00bec00b6a8e60c6b3c3f156c0e6aa023afb6f9a.png" title="Bao Pham clicks for a tab called [[RemoteWebDriver: chrome on XP (8e32127f7ad66742e4122d38259413e4)] -&gt; css selector: #tabs&gt;ul.ui-tabs-nav&gt;li&gt;a]" width="960"/>
+                <img src="1d83c4b3647aff07742b22912df6bdd72f59900456a9f57fca84fece5433be3e.png" title="Bao Pham clicks on #target" width="960"/>
+                <img src="6d64a45eaffcd86445afafcc00bec00b6a8e60c6b3c3f156c0e6aa023afb6f9a.png" title="Bao Pham clicks on #target" width="960"/>
+                <img src="6d64a45eaffcd86445afafcc00bec00b6a8e60c6b3c3f156c0e6aa023afb6f9a.png" title="Then target visibility should be (true)" width="960"/>
+                <img src="scaled_c26478f50afbaf2c1394a56956b8e4bd889eabfa2c2b327a491b48c6dac601e8.png" title="Bao Pham checks for other tab than KMS Core Value tab" width="960"/>
+                <img src="fe86807457fd183520e6eb2468c9491043ea2df03be35fc56783526a3fe8551c.png" title="Bao Pham clicks on #target" width="960"/>
+                <img src="fe86807457fd183520e6eb2468c9491043ea2df03be35fc56783526a3fe8551c.png" title="Then section content should be iterable over [''] in any order" width="960"/>
+                <img src="fe86807457fd183520e6eb2468c9491043ea2df03be35fc56783526a3fe8551c.png" title="Bao Pham enter value into element located by By.cssSelector: iframe" width="960"/>
+                <img src="scaled_74a2e7b7655d496b8365ca0526bf1bb419274b879b1ab36a775c558d55cdaa21.png" title="Bao Pham enter value into element located by By.cssSelector: iframe" width="960"/>
+                <img src="fe86807457fd183520e6eb2468c9491043ea2df03be35fc56783526a3fe8551c.png" title="Bao Pham clicks on Section paragraph" width="960"/>
+                <img src="scaled_b176a687309e018b237f924be616710d7ba7d1feb9dd408309261e71b47c5e93.png" title="Bao Pham clicks on Section paragraph" width="960"/>
+                <img src="scaled_cbcb56bbd847cb12583620c68e519877a507eb9e9f761f183aec26844f402a46.png" title="Bao Pham sends key with content of Test test test to Section body" width="960"/>
+                <img src="74a2e7b7655d496b8365ca0526bf1bb419274b879b1ab36a775c558d55cdaa21.png" title="Bao Pham sends key with content of Test test test to Section body" width="960"/>
+                <img src="74a2e7b7655d496b8365ca0526bf1bb419274b879b1ab36a775c558d55cdaa21.png" title="Then paragraph content should be 'Test test test'" width="960"/>
+                <img src="scaled_bb3f4172a9a5669e3e7283145b64414edb3305e05951ee4f680d8825a5b0e0d1.png" title="Then paragraph content should be 'Test test test'" width="960"/>
+                <img src="74a2e7b7655d496b8365ca0526bf1bb419274b879b1ab36a775c558d55cdaa21.png" title="Bao Pham clicks on #target" width="960"/>
+                <img src="scaled_e930c1cfd3ca3350c1f5501bb8e6c9f9bf2003b05f72ff3c298ad692a66c62fc.png" title="Bao Pham clicks on #target" width="960"/>
+                <img src="e930c1cfd3ca3350c1f5501bb8e6c9f9bf2003b05f72ff3c298ad692a66c62fc.png" title="Then section content should be iterable over ['Technical skill', 'Communication skill', 'Team Working', 'Dependability', 'Self-Management skill', 'Decision Making ability', 'More comments'] in any order" width="960"/>
+                <img src="e930c1cfd3ca3350c1f5501bb8e6c9f9bf2003b05f72ff3c298ad692a66c62fc.png" title="Bao Pham enter value into element located by By.cssSelector: iframe" width="960"/>
+                <img src="scaled_462c9281dfa6896b037b7d0bf81e14f3919d87ad8d483e1472bb3e7a38256439.png" title="Bao Pham enter value into element located by By.cssSelector: iframe" width="960"/>
+                <img src="e930c1cfd3ca3350c1f5501bb8e6c9f9bf2003b05f72ff3c298ad692a66c62fc.png" title="Bao Pham clicks on #target" width="960"/>
+                <img src="scaled_f1eb91df8e5c7ff984d892f2c9480bf38552c1dfaeafb3680eaeb57057f9300c.png" title="Bao Pham clicks on #target" width="960"/>
+                <img src="f1eb91df8e5c7ff984d892f2c9480bf38552c1dfaeafb3680eaeb57057f9300c.png" title="Bao Pham sends key with content of Test test test to Section body" width="960"/>
+                <img src="scaled_b747f32bf23389329623d9c8a0876f936845467238eced5330da7770b16eb426.png" title="Bao Pham sends key with content of Test test test to Section body" width="960"/>
+                <img src="b747f32bf23389329623d9c8a0876f936845467238eced5330da7770b16eb426.png" title="Then li size should be (1)" width="960"/>
+                <img src="scaled_0722752c136b97ff90b57240ada7bbcf91a05fb5eae2f866794ee29764a4fd87.png" title="Then li size should be (1)" width="960"/>
+                <img src="b747f32bf23389329623d9c8a0876f936845467238eced5330da7770b16eb426.png" title="Bao Pham clicks on #target" width="960"/>
+                <img src="scaled_98adda8c784053eedcbcf5943577ef202b6e9c40f8995d6653e99f0dda80ca35.png" title="Bao Pham clicks on #target" width="960"/>
+                <img src="98adda8c784053eedcbcf5943577ef202b6e9c40f8995d6653e99f0dda80ca35.png" title="Bao Pham sends key with content of Test test test to Section body" width="960"/>
+                <img src="scaled_5a39aa95aca78bb82f906d51e9e0da7eb6994ade2ea94b999f0df1f5191e0ed7.png" title="Bao Pham sends key with content of Test test test to Section body" width="960"/>
+                <img src="5a39aa95aca78bb82f906d51e9e0da7eb6994ade2ea94b999f0df1f5191e0ed7.png" title="Then li size should be (1)" width="960"/>
+                <img src="scaled_4beedad0f190e7f2144ec62257e9ed4dbd744871e6f95606aa4229105a3f5c86.png" title="Then li size should be (1)" width="960"/>
+                <img src="4beedad0f190e7f2144ec62257e9ed4dbd744871e6f95606aa4229105a3f5c86.png" title="Bao Pham clicks on #target" width="960"/>
+                <img src="scaled_549aecf4b1c149112f8dd111844a1bb8f44b0241c032afd6d4652c3755733fe3.png" title="Bao Pham clicks on #target" width="960"/>
+                <img src="549aecf4b1c149112f8dd111844a1bb8f44b0241c032afd6d4652c3755733fe3.png" title="Bao Pham sends key with content of Test test test to Section body" width="960"/>
+                <img src="scaled_935613c412e7268d2b3a91f10ac287f5e60a0fb06c35a49e95701bfee2cffcc2.png" title="Bao Pham sends key with content of Test test test to Section body" width="960"/>
+                <img src="935613c412e7268d2b3a91f10ac287f5e60a0fb06c35a49e95701bfee2cffcc2.png" title="Then li size should be (1)" width="960"/>
+                <img src="scaled_00ef8f11ce22c237ea384e582ec998b52e74ac587513de9731be412e78dd0ddc.png" title="Then li size should be (1)" width="960"/>
+                <img src="935613c412e7268d2b3a91f10ac287f5e60a0fb06c35a49e95701bfee2cffcc2.png" title="Bao Pham clicks on #target" width="960"/>
+                <img src="scaled_69da7e786fb349d70af68b6f1d0fee39368da8b0b44af0584b46526ffa257f90.png" title="Bao Pham clicks on #target" width="960"/>
+                <img src="69da7e786fb349d70af68b6f1d0fee39368da8b0b44af0584b46526ffa257f90.png" title="Bao Pham sends key with content of Test test test to Section body" width="960"/>
+                <img src="scaled_80c8de23d501380c90d642e19c2ca250f5ba8c471386d64e8d3e53d4cad5f2d9.png" title="Bao Pham sends key with content of Test test test to Section body" width="960"/>
+                <img src="80c8de23d501380c90d642e19c2ca250f5ba8c471386d64e8d3e53d4cad5f2d9.png" title="Then li size should be (1)" width="960"/>
+                <img src="scaled_c59d354c215fa714c66323d4277b8353e5be74945e048b32104b0a79d08b036a.png" title="Then li size should be (1)" width="960"/>
+                <img src="80c8de23d501380c90d642e19c2ca250f5ba8c471386d64e8d3e53d4cad5f2d9.png" title="Bao Pham clicks on #target" width="960"/>
+                <img src="scaled_9d7fe768f6cc96e9d8703f76f5578eff00908b396e81ec5488488b58a7db5839.png" title="Bao Pham clicks on #target" width="960"/>
+                <img src="9d7fe768f6cc96e9d8703f76f5578eff00908b396e81ec5488488b58a7db5839.png" title="Bao Pham sends key with content of Test test test to Section body" width="960"/>
+                <img src="scaled_e851f8515fcbcd470660db1a2d03c312ef29e11ee5e0450e9e1f3f11d6fc8384.png" title="Bao Pham sends key with content of Test test test to Section body" width="960"/>
+                <img src="e851f8515fcbcd470660db1a2d03c312ef29e11ee5e0450e9e1f3f11d6fc8384.png" title="Then li size should be (1)" width="960"/>
+                <img src="scaled_9f26eb3bd06fe178f718712d7e416c2eebb0a5c94eb3884b89cf6a608dd8b445.png" title="Then li size should be (1)" width="960"/>
+                <img src="9f26eb3bd06fe178f718712d7e416c2eebb0a5c94eb3884b89cf6a608dd8b445.png" title="Bao Pham clicks on #target" width="960"/>
+                <img src="scaled_310e658a5ca8ee73bdc17621f0297ee1e293aea0282acfcc9187bf21b5676397.png" title="Bao Pham clicks on #target" width="960"/>
+                <img src="310e658a5ca8ee73bdc17621f0297ee1e293aea0282acfcc9187bf21b5676397.png" title="Bao Pham sends key with content of Test test test to Section body" width="960"/>
+                <img src="scaled_cf977d29186bd8ef45796b131180b0a82170697d5d0f6afd15398e8cae3b497d.png" title="Bao Pham sends key with content of Test test test to Section body" width="960"/>
+                <img src="cf977d29186bd8ef45796b131180b0a82170697d5d0f6afd15398e8cae3b497d.png" title="Then li size should be (1)" width="960"/>
+                <img src="scaled_85d4b25bc3e29661d14ca4188e6cb46c6f97fd1bf35f7836c88afc4141ba7ed9.png" title="Then li size should be (1)" width="960"/>
+                <img src="cf977d29186bd8ef45796b131180b0a82170697d5d0f6afd15398e8cae3b497d.png" title="Bao Pham clicks on #target" width="960"/>
+                <img src="scaled_31f75e91499776d802a49ba6c2a19c08cd4112bc1e7637e8013e734f38422c1e.png" title="Bao Pham clicks on #target" width="960"/>
+                <img src="31f75e91499776d802a49ba6c2a19c08cd4112bc1e7637e8013e734f38422c1e.png" title="Bao Pham sends key with content of Test test test to Section body" width="960"/>
+                <img src="scaled_0c6e2070ea743ea683cebef0fdb5e430619da4c78099dd728b3ed2e88e5bcfe8.png" title="Bao Pham sends key with content of Test test test to Section body" width="960"/>
+                <img src="0c6e2070ea743ea683cebef0fdb5e430619da4c78099dd728b3ed2e88e5bcfe8.png" title="Then li size should be (1)" width="960"/>
+                <img src="462c9281dfa6896b037b7d0bf81e14f3919d87ad8d483e1472bb3e7a38256439.png" title="Then li size should be (1)" width="960"/>
+                <img src="0c6e2070ea743ea683cebef0fdb5e430619da4c78099dd728b3ed2e88e5bcfe8.png" title="Bao Pham clicks on #target" width="960"/>
+                <img src="1d83c4b3647aff07742b22912df6bdd72f59900456a9f57fca84fece5433be3e.png" title="Bao Pham clicks on #target" width="960"/>
+                <img src="1d83c4b3647aff07742b22912df6bdd72f59900456a9f57fca84fece5433be3e.png" title="Then section content should be iterable over [''] in any order" width="960"/>
+                <img src="1d83c4b3647aff07742b22912df6bdd72f59900456a9f57fca84fece5433be3e.png" title="Bao Pham enter value into element located by By.cssSelector: iframe" width="960"/>
+                <img src="scaled_b171e46535f393ba2153962d285e2accee24520c40c171a6184060d1a935fac4.png" title="Bao Pham enter value into element located by By.cssSelector: iframe" width="960"/>
+                <img src="1d83c4b3647aff07742b22912df6bdd72f59900456a9f57fca84fece5433be3e.png" title="Bao Pham clicks on Section paragraph" width="960"/>
+                <img src="scaled_d45eaeff65b21469017cd1c9a04101ff1a2259d90b042b1d59586cc155e73cdc.png" title="Bao Pham clicks on Section paragraph" width="960"/>
+                <img src="d45eaeff65b21469017cd1c9a04101ff1a2259d90b042b1d59586cc155e73cdc.png" title="Bao Pham sends key with content of Test test test to Section body" width="960"/>
+                <img src="c26478f50afbaf2c1394a56956b8e4bd889eabfa2c2b327a491b48c6dac601e8.png" title="Bao Pham sends key with content of Test test test to Section body" width="960"/>
+                <img src="c26478f50afbaf2c1394a56956b8e4bd889eabfa2c2b327a491b48c6dac601e8.png" title="Then paragraph content should be 'Test test test'" width="960"/>
+                <img src="b171e46535f393ba2153962d285e2accee24520c40c171a6184060d1a935fac4.png" title="Then paragraph content should be 'Test test test'" width="960"/>
+                <img src="b171e46535f393ba2153962d285e2accee24520c40c171a6184060d1a935fac4.png" title="Bao Pham click on button Submit in feedback page" width="960"/>
+                <img src="c302b94f7b98d79bbcd8b190f25f4d1ac8f2f5e041035b88cf1d72681b38dbce.png" title="Bao Pham click on button Submit in feedback page" width="960"/>
+                <img src="b171e46535f393ba2153962d285e2accee24520c40c171a6184060d1a935fac4.png" title="Bao Pham clicks on Submit button" width="960"/>
+                <img src="c302b94f7b98d79bbcd8b190f25f4d1ac8f2f5e041035b88cf1d72681b38dbce.png" title="Bao Pham clicks on Submit button" width="960"/>
+                <img src="c302b94f7b98d79bbcd8b190f25f4d1ac8f2f5e041035b88cf1d72681b38dbce.png" title="Then the title of the page should be 'Search Feedbacks | PA Tool'" width="960"/>
+                <img src="scaled_1ed8ed26eadd54e891ebc5387370fbe51fdef245e406df2f66f060e05ad2c86a.png" title="Bao Pham searches for feedback with filters View options: Feedbacks for Me and expected paging #paging" width="960"/>
+                <img src="c302b94f7b98d79bbcd8b190f25f4d1ac8f2f5e041035b88cf1d72681b38dbce.png" title="Bao Pham enters search feedback menu page" width="960"/>
+                <img src="c302b94f7b98d79bbcd8b190f25f4d1ac8f2f5e041035b88cf1d72681b38dbce.png" title="Bao Pham chooses a list of menu items: ['View Feedbacks' menu, 'Search All' menu]" width="960"/>
+                <img src="0ccd4a8977c124d87274c13d7ddfbebbbdb9b3c59b1ff1621d862e557b5f1fad.png" title="Bao Pham hovers on element 'View Feedbacks' menu" width="960"/>
+                <img src="0ccd4a8977c124d87274c13d7ddfbebbbdb9b3c59b1ff1621d862e557b5f1fad.png" title="Bao Pham clicks on 'Search All' menu" width="960"/>
+                <img src="c302b94f7b98d79bbcd8b190f25f4d1ac8f2f5e041035b88cf1d72681b38dbce.png" title="Bao Pham clicks on 'Search All' menu" width="960"/>
+                <img src="0b9745675a46f16dd207a14277438a8a4258a013750cc2887b550a1adccf93a4.png" title="Bao Pham filters the feedback conditions" width="960"/>
+                <img src="0b9745675a46f16dd207a14277438a8a4258a013750cc2887b550a1adccf93a4.png" title="Bao Pham clicks on View option select" width="960"/>
+                <img src="0b9745675a46f16dd207a14277438a8a4258a013750cc2887b550a1adccf93a4.png" title="Then search button enabled should be (true)" width="960"/>
+                <img src="0b9745675a46f16dd207a14277438a8a4258a013750cc2887b550a1adccf93a4.png" title="Bao Pham clicks on Search button" width="960"/>
+                <img src="1ed8ed26eadd54e891ebc5387370fbe51fdef245e406df2f66f060e05ad2c86a.png" title="Bao Pham clicks on Search button" width="960"/>
+                <img src="0b9745675a46f16dd207a14277438a8a4258a013750cc2887b550a1adccf93a4.png" title="Bao Pham clicks on Search feedback button" width="960"/>
+                <img src="scaled_02ce22b9b834c6ac59b438ced6ee10fe7f179d97cda51d0ef9f2035318b64f72.png" title="Bao Pham clicks on Search feedback button" width="960"/>
+                <img src="scaled_a8b1272a5ae9e7744780e2061d2989c61edff588932d06668ed93f0e0093bb86.png" title="Then the noti message should be 'Search sucessfully.'" width="960"/>
+                <img src="1ed8ed26eadd54e891ebc5387370fbe51fdef245e406df2f66f060e05ad2c86a.png" title="Then the noti message should be 'Search sucessfully.'" width="960"/>
+                <img src="1ed8ed26eadd54e891ebc5387370fbe51fdef245e406df2f66f060e05ad2c86a.png" title="Then headers info should be iterable over ['Receiver', 'Date (m/d/y)', 'Status', 'Is Shared', 'Provider'] in any order: <span class='success-color'>SUCCESS</span>" width="960"/>
+            </div>
+        </div>
+
+
+    </div>
+</div>
+<div id="beforefooter"></div>
+<div id="bottomfooter">
+    <span class="version">Serenity BDD version 1.2.4</span>
+</div>
+</body>
+</html>

@@ -1,0 +1,374 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title>Screenshots</title>
+
+    <link rel="shortcut icon" href="favicon.ico">
+
+<link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
+<!--[if IE 7]>
+<link rel="stylesheet" href="font-awesome/css/font-awesome-ie7.min.css">
+<![endif]--><!-- JQuery -->
+<script type="text/javascript" src="scripts/jquery-1.11.1.min.js"></script><!-- Bootstrap -->
+<link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+<script src="bootstrap/js/bootstrap.min.js"></script><link rel="stylesheet" href="css/core.css"/>
+<link rel="stylesheet" href="css/link.css"/>
+<link type="text/css" media="screen" href="css/screen.css" rel="Stylesheet"/><!-- Nivo Slider -->
+<link rel="stylesheet" href="nivo-slider/3.2/nivo-slider.css" type="text/css" media="screen" />
+<link rel="stylesheet" href="nivo-slider/3.2/themes/default/default.css" type="text/css" media="screen" />
+<script src="nivo-slider/3.2/jquery.nivo.slider.pack.js" type="text/javascript"></script>
+    <script type="text/javascript">
+
+        function getUrlVars() {
+            var vars = {};
+            var parts = window.location.href.replace(/[?&]+([^=&]+)=([^&]*)/gi, function (m, key, value) {
+                vars[key] = value;
+            });
+            return vars;
+        }
+
+        var screenshotIndex = getUrlVars()["screenshot"];
+
+        $(window).load(function () {
+            $('#slider').nivoSlider({
+                startSlide: screenshotIndex,
+                effect: 'fade',
+                animSpeed: 200,
+                manualAdvance: true
+            });
+        });
+
+        $(window).keydown(function(e) {
+            switch(e.which) {
+                case 37:
+                    $('a.nivo-prevNav').click();
+                    break;
+                case 39:
+                    $('a.nivo-nextNav').click();
+                    break;
+            }
+        });
+    </script>
+
+</head>
+
+<body>
+<div id="topheader">
+    <div id="topbanner">
+        <div id="logo"><a href="index.html"><img src="images/serenity-bdd-logo.png" border="0"/></a></div>
+        <div id="projectname-banner" style="float:right">
+            <span class="projectname">Demo Project using Serenity Screenplay and JUnit</span>
+        </div>
+    </div>
+</div>
+
+<div class="middlecontent">
+    <div id="contenttop">
+        <div class="middlebg">
+            <span class="breadcrumbs">
+                <a href="index.html">Home</a>
+                > <a
+                    href="b8e20ec059c822b38b84f1d06b3e2133b93aee929b721b0f70a130da0a74e949.html">Search Story</a>
+                > <a
+                    href="6acd13664f8779b7c6555473d274d179c4ed571408a6807022a4882f6e332165.html">The buttons should be on right state when choosing rows </a>
+                > Screenshots
+            </span>
+        </div>
+        <div class="rightbg"></div>
+    </div>
+
+    <div class="clr"></div>
+
+    <!--/* starts second table*/-->
+<div>
+    <ul class="nav nav-tabs" role="tablist">
+        <li class="active">
+            <a href="#"><i class="fa fa-check-square-o"></i> Overall Test Results</a>
+        </li>
+        <li >
+            <a href="capabilities.html"><i class="fa fa-book"></i> Requirements</a>
+        </li>
+        <li >
+            <a href="2a4631d87648e59c428d4cf0e9247f9d286e4679f436ca2ce872e931eb4dfd58.html"><i class="fa fa-comments-o"></i> Stories</a>
+        </li>
+    </ul>
+    <span class="date-and-time"><a href="build-info.html"><i class="fa fa-info-circle"></i></a> Report generated 30-03-2017 11:04</span>
+    <br style="clear:left"/>
+</div>
+
+    <div class="clr"></div>
+
+
+    <div id="contentbody">
+        <div class="titlebar">
+            <div class="story-title">
+                <table class="outcome-header">
+                    <tr>
+                        <td>
+                            <div>
+                                <h3 class="discreet-story-header">
+                                    <i class="fa fa-2x fa-comments-o"></i>
+                                    <span class="story-header-title">Search Story</span>
+                                    <span class="badge tag-badge">Story</span>
+                                </h3>
+
+                                <div class="discreet-requirement-narrative-title">
+                                
+                                </div>
+                            </div>
+
+                        </td>
+                        <td valign="top" align="right">
+                            <p class="tag">
+                                <span class="badge tag-badge">
+                                    <i class="fa fa-tag"></i>&nbsp;<a class="tagLink" href="b73ab2df35cd94b5317e6d6bfdb3d2310ff26862ef2f19989342051d05f64b83.html">Search
+                                    (feature)</a>
+                                </span>
+                            </p>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+            <div class="story-title">
+                <table class="outcome-header">
+                    <tr>
+                        <td colspan="2" class="test-title-bar">
+                            <span class="outcome-icon"><i class='fa fa-check-square-o success-icon fa-3x' title='SUCCESS'></i></span>
+                            <span class="test-case-title">
+                                <span class="success-color">The Buttons Should Be On Right State When Choosing Rows
+                                    <span class="related-issue-title"></span>
+                                </span>
+                            </span>
+
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <div class="clr"></div>
+
+
+    <div id="beforetable"></div>
+    <div id="contenttilttle">
+        <div class="slider-wrapper theme-default">
+            <div id="slider">
+                <img src="a9c9faaf0ef40eadf8462221f8b5a10469fc17be3fcc179907e98b52be9de44d.png" title="Open the application" width="960"/>
+                <img src="a9c9faaf0ef40eadf8462221f8b5a10469fc17be3fcc179907e98b52be9de44d.png" title="Sandra opens the Login page" width="960"/>
+                <img src="edecfbad55bc86a39b5c8343c27d50e66810af0b26afc5a33d54136f090ae022.png" title="Sandra logs in successfully with username '#username' and password '#password'" width="960"/>
+                <img src="edecfbad55bc86a39b5c8343c27d50e66810af0b26afc5a33d54136f090ae022.png" title="Sandra enter authentication info with username 'baopham' and password 'kms'" width="960"/>
+                <img src="6d0d236c20185b5f20f9acbf6796c58064163a65e17d22bfbe8859a1e6a95832.png" title="Sandra enters 'baopham' into username field" width="960"/>
+                <img src="ca3be1774d0ff04d6830b01499b859afab3b1f8baa37e3543199a9638a75cabf.png" title="Sandra enters 'baopham' into username field" width="960"/>
+                <img src="ca3be1774d0ff04d6830b01499b859afab3b1f8baa37e3543199a9638a75cabf.png" title="Sandra enters 'kms' into password field" width="960"/>
+                <img src="7c98c775d7aee9de3a44f232b96acced9357df69fe910285ffccb0162c2db76a.png" title="Sandra enters 'kms' into password field" width="960"/>
+                <img src="7c98c775d7aee9de3a44f232b96acced9357df69fe910285ffccb0162c2db76a.png" title="Sandra clicks on login button" width="960"/>
+                <img src="edecfbad55bc86a39b5c8343c27d50e66810af0b26afc5a33d54136f090ae022.png" title="Sandra clicks on login button" width="960"/>
+                <img src="edecfbad55bc86a39b5c8343c27d50e66810af0b26afc5a33d54136f090ae022.png" title="Then the title of the page should be 'Home | PA Tool'" width="960"/>
+                <img src="scaled_a8fbdaecffbb01f1aa8a7efedfc5ad18ef99fd0a786dc6e08c13a468885d5534.png" title="Sandra searches for feedback with filters View options: My feedbacks for Others, status: [Draft, Approved, Rejected, Pending] and expected paging Page 1 of 2, View 1 - 10 of 16" width="960"/>
+                <img src="073bad5529ba0bbea38c2e01fcf0293f4ad9b5b0e8c36971dfdd6e170628b8a9.png" title="Sandra enters search feedback menu page" width="960"/>
+                <img src="073bad5529ba0bbea38c2e01fcf0293f4ad9b5b0e8c36971dfdd6e170628b8a9.png" title="Sandra chooses a list of menu items: ['View Feedbacks' menu, 'Search All' menu]" width="960"/>
+                <img src="edecfbad55bc86a39b5c8343c27d50e66810af0b26afc5a33d54136f090ae022.png" title="Sandra hovers on element 'View Feedbacks' menu" width="960"/>
+                <img src="edecfbad55bc86a39b5c8343c27d50e66810af0b26afc5a33d54136f090ae022.png" title="Sandra hovers on element 'View Feedbacks' menu" width="960"/>
+                <img src="edecfbad55bc86a39b5c8343c27d50e66810af0b26afc5a33d54136f090ae022.png" title="Sandra hovers on element 'View Feedbacks' menu" width="960"/>
+                <img src="edecfbad55bc86a39b5c8343c27d50e66810af0b26afc5a33d54136f090ae022.png" title="Sandra hovers on element 'View Feedbacks' menu" width="960"/>
+                <img src="edecfbad55bc86a39b5c8343c27d50e66810af0b26afc5a33d54136f090ae022.png" title="Sandra hovers on element 'View Feedbacks' menu" width="960"/>
+                <img src="edecfbad55bc86a39b5c8343c27d50e66810af0b26afc5a33d54136f090ae022.png" title="Sandra hovers on element 'View Feedbacks' menu" width="960"/>
+                <img src="edecfbad55bc86a39b5c8343c27d50e66810af0b26afc5a33d54136f090ae022.png" title="Sandra hovers on element 'View Feedbacks' menu" width="960"/>
+                <img src="edecfbad55bc86a39b5c8343c27d50e66810af0b26afc5a33d54136f090ae022.png" title="Sandra hovers on element 'View Feedbacks' menu" width="960"/>
+                <img src="edecfbad55bc86a39b5c8343c27d50e66810af0b26afc5a33d54136f090ae022.png" title="Sandra hovers on element 'View Feedbacks' menu" width="960"/>
+                <img src="edecfbad55bc86a39b5c8343c27d50e66810af0b26afc5a33d54136f090ae022.png" title="Sandra hovers on element 'View Feedbacks' menu" width="960"/>
+                <img src="edecfbad55bc86a39b5c8343c27d50e66810af0b26afc5a33d54136f090ae022.png" title="Sandra hovers on element 'View Feedbacks' menu" width="960"/>
+                <img src="edecfbad55bc86a39b5c8343c27d50e66810af0b26afc5a33d54136f090ae022.png" title="Sandra hovers on element 'View Feedbacks' menu" width="960"/>
+                <img src="edecfbad55bc86a39b5c8343c27d50e66810af0b26afc5a33d54136f090ae022.png" title="Sandra hovers on element 'View Feedbacks' menu" width="960"/>
+                <img src="edecfbad55bc86a39b5c8343c27d50e66810af0b26afc5a33d54136f090ae022.png" title="Sandra hovers on element 'View Feedbacks' menu" width="960"/>
+                <img src="edecfbad55bc86a39b5c8343c27d50e66810af0b26afc5a33d54136f090ae022.png" title="Sandra hovers on element 'View Feedbacks' menu" width="960"/>
+                <img src="edecfbad55bc86a39b5c8343c27d50e66810af0b26afc5a33d54136f090ae022.png" title="Sandra hovers on element 'View Feedbacks' menu" width="960"/>
+                <img src="edecfbad55bc86a39b5c8343c27d50e66810af0b26afc5a33d54136f090ae022.png" title="Sandra hovers on element 'View Feedbacks' menu" width="960"/>
+                <img src="edecfbad55bc86a39b5c8343c27d50e66810af0b26afc5a33d54136f090ae022.png" title="Sandra hovers on element 'View Feedbacks' menu" width="960"/>
+                <img src="edecfbad55bc86a39b5c8343c27d50e66810af0b26afc5a33d54136f090ae022.png" title="Sandra hovers on element 'View Feedbacks' menu" width="960"/>
+                <img src="edecfbad55bc86a39b5c8343c27d50e66810af0b26afc5a33d54136f090ae022.png" title="Sandra hovers on element 'View Feedbacks' menu" width="960"/>
+                <img src="edecfbad55bc86a39b5c8343c27d50e66810af0b26afc5a33d54136f090ae022.png" title="Sandra hovers on element 'View Feedbacks' menu" width="960"/>
+                <img src="edecfbad55bc86a39b5c8343c27d50e66810af0b26afc5a33d54136f090ae022.png" title="Sandra hovers on element 'View Feedbacks' menu" width="960"/>
+                <img src="edecfbad55bc86a39b5c8343c27d50e66810af0b26afc5a33d54136f090ae022.png" title="Sandra hovers on element 'View Feedbacks' menu" width="960"/>
+                <img src="edecfbad55bc86a39b5c8343c27d50e66810af0b26afc5a33d54136f090ae022.png" title="Sandra hovers on element 'View Feedbacks' menu" width="960"/>
+                <img src="edecfbad55bc86a39b5c8343c27d50e66810af0b26afc5a33d54136f090ae022.png" title="Sandra hovers on element 'View Feedbacks' menu" width="960"/>
+                <img src="edecfbad55bc86a39b5c8343c27d50e66810af0b26afc5a33d54136f090ae022.png" title="Sandra hovers on element 'View Feedbacks' menu" width="960"/>
+                <img src="edecfbad55bc86a39b5c8343c27d50e66810af0b26afc5a33d54136f090ae022.png" title="Sandra hovers on element 'View Feedbacks' menu" width="960"/>
+                <img src="edecfbad55bc86a39b5c8343c27d50e66810af0b26afc5a33d54136f090ae022.png" title="Sandra hovers on element 'View Feedbacks' menu" width="960"/>
+                <img src="edecfbad55bc86a39b5c8343c27d50e66810af0b26afc5a33d54136f090ae022.png" title="Sandra hovers on element 'View Feedbacks' menu" width="960"/>
+                <img src="edecfbad55bc86a39b5c8343c27d50e66810af0b26afc5a33d54136f090ae022.png" title="Sandra hovers on element 'View Feedbacks' menu" width="960"/>
+                <img src="edecfbad55bc86a39b5c8343c27d50e66810af0b26afc5a33d54136f090ae022.png" title="Sandra hovers on element 'View Feedbacks' menu" width="960"/>
+                <img src="edecfbad55bc86a39b5c8343c27d50e66810af0b26afc5a33d54136f090ae022.png" title="Sandra hovers on element 'View Feedbacks' menu" width="960"/>
+                <img src="edecfbad55bc86a39b5c8343c27d50e66810af0b26afc5a33d54136f090ae022.png" title="Sandra hovers on element 'View Feedbacks' menu" width="960"/>
+                <img src="edecfbad55bc86a39b5c8343c27d50e66810af0b26afc5a33d54136f090ae022.png" title="Sandra hovers on element 'View Feedbacks' menu" width="960"/>
+                <img src="edecfbad55bc86a39b5c8343c27d50e66810af0b26afc5a33d54136f090ae022.png" title="Sandra hovers on element 'View Feedbacks' menu" width="960"/>
+                <img src="edecfbad55bc86a39b5c8343c27d50e66810af0b26afc5a33d54136f090ae022.png" title="Sandra hovers on element 'View Feedbacks' menu" width="960"/>
+                <img src="edecfbad55bc86a39b5c8343c27d50e66810af0b26afc5a33d54136f090ae022.png" title="Sandra hovers on element 'View Feedbacks' menu" width="960"/>
+                <img src="edecfbad55bc86a39b5c8343c27d50e66810af0b26afc5a33d54136f090ae022.png" title="Sandra hovers on element 'View Feedbacks' menu" width="960"/>
+                <img src="edecfbad55bc86a39b5c8343c27d50e66810af0b26afc5a33d54136f090ae022.png" title="Sandra hovers on element 'View Feedbacks' menu" width="960"/>
+                <img src="edecfbad55bc86a39b5c8343c27d50e66810af0b26afc5a33d54136f090ae022.png" title="Sandra hovers on element 'View Feedbacks' menu" width="960"/>
+                <img src="edecfbad55bc86a39b5c8343c27d50e66810af0b26afc5a33d54136f090ae022.png" title="Sandra hovers on element 'View Feedbacks' menu" width="960"/>
+                <img src="edecfbad55bc86a39b5c8343c27d50e66810af0b26afc5a33d54136f090ae022.png" title="Sandra hovers on element 'View Feedbacks' menu" width="960"/>
+                <img src="edecfbad55bc86a39b5c8343c27d50e66810af0b26afc5a33d54136f090ae022.png" title="Sandra hovers on element 'View Feedbacks' menu" width="960"/>
+                <img src="edecfbad55bc86a39b5c8343c27d50e66810af0b26afc5a33d54136f090ae022.png" title="Sandra hovers on element 'View Feedbacks' menu" width="960"/>
+                <img src="edecfbad55bc86a39b5c8343c27d50e66810af0b26afc5a33d54136f090ae022.png" title="Sandra hovers on element 'View Feedbacks' menu" width="960"/>
+                <img src="edecfbad55bc86a39b5c8343c27d50e66810af0b26afc5a33d54136f090ae022.png" title="Sandra hovers on element 'View Feedbacks' menu" width="960"/>
+                <img src="edecfbad55bc86a39b5c8343c27d50e66810af0b26afc5a33d54136f090ae022.png" title="Sandra hovers on element 'View Feedbacks' menu" width="960"/>
+                <img src="edecfbad55bc86a39b5c8343c27d50e66810af0b26afc5a33d54136f090ae022.png" title="Sandra hovers on element 'View Feedbacks' menu" width="960"/>
+                <img src="edecfbad55bc86a39b5c8343c27d50e66810af0b26afc5a33d54136f090ae022.png" title="Sandra hovers on element 'View Feedbacks' menu" width="960"/>
+                <img src="edecfbad55bc86a39b5c8343c27d50e66810af0b26afc5a33d54136f090ae022.png" title="Sandra hovers on element 'View Feedbacks' menu" width="960"/>
+                <img src="edecfbad55bc86a39b5c8343c27d50e66810af0b26afc5a33d54136f090ae022.png" title="Sandra hovers on element 'View Feedbacks' menu" width="960"/>
+                <img src="edecfbad55bc86a39b5c8343c27d50e66810af0b26afc5a33d54136f090ae022.png" title="Sandra hovers on element 'View Feedbacks' menu" width="960"/>
+                <img src="edecfbad55bc86a39b5c8343c27d50e66810af0b26afc5a33d54136f090ae022.png" title="Sandra hovers on element 'View Feedbacks' menu" width="960"/>
+                <img src="edecfbad55bc86a39b5c8343c27d50e66810af0b26afc5a33d54136f090ae022.png" title="Sandra hovers on element 'View Feedbacks' menu" width="960"/>
+                <img src="edecfbad55bc86a39b5c8343c27d50e66810af0b26afc5a33d54136f090ae022.png" title="Sandra hovers on element 'View Feedbacks' menu" width="960"/>
+                <img src="edecfbad55bc86a39b5c8343c27d50e66810af0b26afc5a33d54136f090ae022.png" title="Sandra hovers on element 'View Feedbacks' menu" width="960"/>
+                <img src="edecfbad55bc86a39b5c8343c27d50e66810af0b26afc5a33d54136f090ae022.png" title="Sandra hovers on element 'View Feedbacks' menu" width="960"/>
+                <img src="edecfbad55bc86a39b5c8343c27d50e66810af0b26afc5a33d54136f090ae022.png" title="Sandra hovers on element 'View Feedbacks' menu" width="960"/>
+                <img src="edecfbad55bc86a39b5c8343c27d50e66810af0b26afc5a33d54136f090ae022.png" title="Sandra hovers on element 'View Feedbacks' menu" width="960"/>
+                <img src="edecfbad55bc86a39b5c8343c27d50e66810af0b26afc5a33d54136f090ae022.png" title="Sandra hovers on element 'View Feedbacks' menu" width="960"/>
+                <img src="edecfbad55bc86a39b5c8343c27d50e66810af0b26afc5a33d54136f090ae022.png" title="Sandra hovers on element 'View Feedbacks' menu" width="960"/>
+                <img src="edecfbad55bc86a39b5c8343c27d50e66810af0b26afc5a33d54136f090ae022.png" title="Sandra hovers on element 'View Feedbacks' menu" width="960"/>
+                <img src="edecfbad55bc86a39b5c8343c27d50e66810af0b26afc5a33d54136f090ae022.png" title="Sandra hovers on element 'View Feedbacks' menu" width="960"/>
+                <img src="edecfbad55bc86a39b5c8343c27d50e66810af0b26afc5a33d54136f090ae022.png" title="Sandra hovers on element 'View Feedbacks' menu" width="960"/>
+                <img src="edecfbad55bc86a39b5c8343c27d50e66810af0b26afc5a33d54136f090ae022.png" title="Sandra hovers on element 'View Feedbacks' menu" width="960"/>
+                <img src="edecfbad55bc86a39b5c8343c27d50e66810af0b26afc5a33d54136f090ae022.png" title="Sandra hovers on element 'View Feedbacks' menu" width="960"/>
+                <img src="edecfbad55bc86a39b5c8343c27d50e66810af0b26afc5a33d54136f090ae022.png" title="Sandra hovers on element 'View Feedbacks' menu" width="960"/>
+                <img src="edecfbad55bc86a39b5c8343c27d50e66810af0b26afc5a33d54136f090ae022.png" title="Sandra hovers on element 'View Feedbacks' menu" width="960"/>
+                <img src="edecfbad55bc86a39b5c8343c27d50e66810af0b26afc5a33d54136f090ae022.png" title="Sandra hovers on element 'View Feedbacks' menu" width="960"/>
+                <img src="edecfbad55bc86a39b5c8343c27d50e66810af0b26afc5a33d54136f090ae022.png" title="Sandra hovers on element 'View Feedbacks' menu" width="960"/>
+                <img src="edecfbad55bc86a39b5c8343c27d50e66810af0b26afc5a33d54136f090ae022.png" title="Sandra hovers on element 'View Feedbacks' menu" width="960"/>
+                <img src="edecfbad55bc86a39b5c8343c27d50e66810af0b26afc5a33d54136f090ae022.png" title="Sandra hovers on element 'View Feedbacks' menu" width="960"/>
+                <img src="edecfbad55bc86a39b5c8343c27d50e66810af0b26afc5a33d54136f090ae022.png" title="Sandra hovers on element 'View Feedbacks' menu" width="960"/>
+                <img src="edecfbad55bc86a39b5c8343c27d50e66810af0b26afc5a33d54136f090ae022.png" title="Sandra hovers on element 'View Feedbacks' menu" width="960"/>
+                <img src="edecfbad55bc86a39b5c8343c27d50e66810af0b26afc5a33d54136f090ae022.png" title="Sandra hovers on element 'View Feedbacks' menu" width="960"/>
+                <img src="edecfbad55bc86a39b5c8343c27d50e66810af0b26afc5a33d54136f090ae022.png" title="Sandra hovers on element 'View Feedbacks' menu" width="960"/>
+                <img src="edecfbad55bc86a39b5c8343c27d50e66810af0b26afc5a33d54136f090ae022.png" title="Sandra hovers on element 'View Feedbacks' menu" width="960"/>
+                <img src="edecfbad55bc86a39b5c8343c27d50e66810af0b26afc5a33d54136f090ae022.png" title="Sandra hovers on element 'View Feedbacks' menu" width="960"/>
+                <img src="edecfbad55bc86a39b5c8343c27d50e66810af0b26afc5a33d54136f090ae022.png" title="Sandra hovers on element 'View Feedbacks' menu" width="960"/>
+                <img src="edecfbad55bc86a39b5c8343c27d50e66810af0b26afc5a33d54136f090ae022.png" title="Sandra hovers on element 'View Feedbacks' menu" width="960"/>
+                <img src="edecfbad55bc86a39b5c8343c27d50e66810af0b26afc5a33d54136f090ae022.png" title="Sandra hovers on element 'View Feedbacks' menu" width="960"/>
+                <img src="edecfbad55bc86a39b5c8343c27d50e66810af0b26afc5a33d54136f090ae022.png" title="Sandra hovers on element 'View Feedbacks' menu" width="960"/>
+                <img src="edecfbad55bc86a39b5c8343c27d50e66810af0b26afc5a33d54136f090ae022.png" title="Sandra hovers on element 'View Feedbacks' menu" width="960"/>
+                <img src="edecfbad55bc86a39b5c8343c27d50e66810af0b26afc5a33d54136f090ae022.png" title="Sandra hovers on element 'View Feedbacks' menu" width="960"/>
+                <img src="edecfbad55bc86a39b5c8343c27d50e66810af0b26afc5a33d54136f090ae022.png" title="Sandra hovers on element 'View Feedbacks' menu" width="960"/>
+                <img src="edecfbad55bc86a39b5c8343c27d50e66810af0b26afc5a33d54136f090ae022.png" title="Sandra hovers on element 'View Feedbacks' menu" width="960"/>
+                <img src="edecfbad55bc86a39b5c8343c27d50e66810af0b26afc5a33d54136f090ae022.png" title="Sandra hovers on element 'View Feedbacks' menu" width="960"/>
+                <img src="edecfbad55bc86a39b5c8343c27d50e66810af0b26afc5a33d54136f090ae022.png" title="Sandra hovers on element 'View Feedbacks' menu" width="960"/>
+                <img src="edecfbad55bc86a39b5c8343c27d50e66810af0b26afc5a33d54136f090ae022.png" title="Sandra hovers on element 'View Feedbacks' menu" width="960"/>
+                <img src="edecfbad55bc86a39b5c8343c27d50e66810af0b26afc5a33d54136f090ae022.png" title="Sandra hovers on element 'View Feedbacks' menu" width="960"/>
+                <img src="edecfbad55bc86a39b5c8343c27d50e66810af0b26afc5a33d54136f090ae022.png" title="Sandra hovers on element 'View Feedbacks' menu" width="960"/>
+                <img src="edecfbad55bc86a39b5c8343c27d50e66810af0b26afc5a33d54136f090ae022.png" title="Sandra hovers on element 'View Feedbacks' menu" width="960"/>
+                <img src="edecfbad55bc86a39b5c8343c27d50e66810af0b26afc5a33d54136f090ae022.png" title="Sandra hovers on element 'View Feedbacks' menu" width="960"/>
+                <img src="edecfbad55bc86a39b5c8343c27d50e66810af0b26afc5a33d54136f090ae022.png" title="Sandra hovers on element 'View Feedbacks' menu" width="960"/>
+                <img src="edecfbad55bc86a39b5c8343c27d50e66810af0b26afc5a33d54136f090ae022.png" title="Sandra hovers on element 'View Feedbacks' menu" width="960"/>
+                <img src="edecfbad55bc86a39b5c8343c27d50e66810af0b26afc5a33d54136f090ae022.png" title="Sandra hovers on element 'View Feedbacks' menu" width="960"/>
+                <img src="edecfbad55bc86a39b5c8343c27d50e66810af0b26afc5a33d54136f090ae022.png" title="Sandra hovers on element 'View Feedbacks' menu" width="960"/>
+                <img src="edecfbad55bc86a39b5c8343c27d50e66810af0b26afc5a33d54136f090ae022.png" title="Sandra hovers on element 'View Feedbacks' menu" width="960"/>
+                <img src="edecfbad55bc86a39b5c8343c27d50e66810af0b26afc5a33d54136f090ae022.png" title="Sandra hovers on element 'View Feedbacks' menu" width="960"/>
+                <img src="edecfbad55bc86a39b5c8343c27d50e66810af0b26afc5a33d54136f090ae022.png" title="Sandra hovers on element 'View Feedbacks' menu" width="960"/>
+                <img src="edecfbad55bc86a39b5c8343c27d50e66810af0b26afc5a33d54136f090ae022.png" title="Sandra hovers on element 'View Feedbacks' menu" width="960"/>
+                <img src="edecfbad55bc86a39b5c8343c27d50e66810af0b26afc5a33d54136f090ae022.png" title="Sandra hovers on element 'View Feedbacks' menu" width="960"/>
+                <img src="edecfbad55bc86a39b5c8343c27d50e66810af0b26afc5a33d54136f090ae022.png" title="Sandra hovers on element 'View Feedbacks' menu" width="960"/>
+                <img src="edecfbad55bc86a39b5c8343c27d50e66810af0b26afc5a33d54136f090ae022.png" title="Sandra hovers on element 'View Feedbacks' menu" width="960"/>
+                <img src="edecfbad55bc86a39b5c8343c27d50e66810af0b26afc5a33d54136f090ae022.png" title="Sandra hovers on element 'View Feedbacks' menu" width="960"/>
+                <img src="edecfbad55bc86a39b5c8343c27d50e66810af0b26afc5a33d54136f090ae022.png" title="Sandra hovers on element 'View Feedbacks' menu" width="960"/>
+                <img src="edecfbad55bc86a39b5c8343c27d50e66810af0b26afc5a33d54136f090ae022.png" title="Sandra hovers on element 'View Feedbacks' menu" width="960"/>
+                <img src="edecfbad55bc86a39b5c8343c27d50e66810af0b26afc5a33d54136f090ae022.png" title="Sandra hovers on element 'View Feedbacks' menu" width="960"/>
+                <img src="edecfbad55bc86a39b5c8343c27d50e66810af0b26afc5a33d54136f090ae022.png" title="Sandra hovers on element 'View Feedbacks' menu" width="960"/>
+                <img src="edecfbad55bc86a39b5c8343c27d50e66810af0b26afc5a33d54136f090ae022.png" title="Sandra hovers on element 'View Feedbacks' menu" width="960"/>
+                <img src="edecfbad55bc86a39b5c8343c27d50e66810af0b26afc5a33d54136f090ae022.png" title="Sandra hovers on element 'View Feedbacks' menu" width="960"/>
+                <img src="edecfbad55bc86a39b5c8343c27d50e66810af0b26afc5a33d54136f090ae022.png" title="Sandra hovers on element 'View Feedbacks' menu" width="960"/>
+                <img src="edecfbad55bc86a39b5c8343c27d50e66810af0b26afc5a33d54136f090ae022.png" title="Sandra hovers on element 'View Feedbacks' menu" width="960"/>
+                <img src="edecfbad55bc86a39b5c8343c27d50e66810af0b26afc5a33d54136f090ae022.png" title="Sandra hovers on element 'View Feedbacks' menu" width="960"/>
+                <img src="edecfbad55bc86a39b5c8343c27d50e66810af0b26afc5a33d54136f090ae022.png" title="Sandra hovers on element 'View Feedbacks' menu" width="960"/>
+                <img src="edecfbad55bc86a39b5c8343c27d50e66810af0b26afc5a33d54136f090ae022.png" title="Sandra hovers on element 'View Feedbacks' menu" width="960"/>
+                <img src="edecfbad55bc86a39b5c8343c27d50e66810af0b26afc5a33d54136f090ae022.png" title="Sandra hovers on element 'View Feedbacks' menu" width="960"/>
+                <img src="edecfbad55bc86a39b5c8343c27d50e66810af0b26afc5a33d54136f090ae022.png" title="Sandra hovers on element 'View Feedbacks' menu" width="960"/>
+                <img src="edecfbad55bc86a39b5c8343c27d50e66810af0b26afc5a33d54136f090ae022.png" title="Sandra hovers on element 'View Feedbacks' menu" width="960"/>
+                <img src="edecfbad55bc86a39b5c8343c27d50e66810af0b26afc5a33d54136f090ae022.png" title="Sandra hovers on element 'View Feedbacks' menu" width="960"/>
+                <img src="edecfbad55bc86a39b5c8343c27d50e66810af0b26afc5a33d54136f090ae022.png" title="Sandra hovers on element 'View Feedbacks' menu" width="960"/>
+                <img src="edecfbad55bc86a39b5c8343c27d50e66810af0b26afc5a33d54136f090ae022.png" title="Sandra hovers on element 'View Feedbacks' menu" width="960"/>
+                <img src="edecfbad55bc86a39b5c8343c27d50e66810af0b26afc5a33d54136f090ae022.png" title="Sandra hovers on element 'View Feedbacks' menu" width="960"/>
+                <img src="edecfbad55bc86a39b5c8343c27d50e66810af0b26afc5a33d54136f090ae022.png" title="Sandra hovers on element 'View Feedbacks' menu" width="960"/>
+                <img src="edecfbad55bc86a39b5c8343c27d50e66810af0b26afc5a33d54136f090ae022.png" title="Sandra hovers on element 'View Feedbacks' menu" width="960"/>
+                <img src="edecfbad55bc86a39b5c8343c27d50e66810af0b26afc5a33d54136f090ae022.png" title="Sandra hovers on element 'View Feedbacks' menu" width="960"/>
+                <img src="edecfbad55bc86a39b5c8343c27d50e66810af0b26afc5a33d54136f090ae022.png" title="Sandra hovers on element 'View Feedbacks' menu" width="960"/>
+                <img src="40ad8cbb36924f47d834a1e8be968fdc1a5a9479e717d290c4dea0fab638be97.png" title="Sandra hovers on element 'View Feedbacks' menu" width="960"/>
+                <img src="40ad8cbb36924f47d834a1e8be968fdc1a5a9479e717d290c4dea0fab638be97.png" title="Sandra clicks on 'Search All' menu" width="960"/>
+                <img src="073bad5529ba0bbea38c2e01fcf0293f4ad9b5b0e8c36971dfdd6e170628b8a9.png" title="Sandra clicks on 'Search All' menu" width="960"/>
+                <img src="073bad5529ba0bbea38c2e01fcf0293f4ad9b5b0e8c36971dfdd6e170628b8a9.png" title="Sandra filters the feedback conditions" width="960"/>
+                <img src="scaled_1e1d2d8ccdfb7200968a4beb8eb82d2e99fd4a54c407d7b6741486f7d81a6f4b.png" title="Sandra filters the feedback conditions" width="960"/>
+                <img src="073bad5529ba0bbea38c2e01fcf0293f4ad9b5b0e8c36971dfdd6e170628b8a9.png" title="Sandra clicks on View option select" width="960"/>
+                <img src="dae9ad84ac29fd3d954979b9d90c11bf46cce49df294606870f9ba9c19d270ad.png" title="Sandra clicks on View option select" width="960"/>
+                <img src="dae9ad84ac29fd3d954979b9d90c11bf46cce49df294606870f9ba9c19d270ad.png" title="Sandra select status [Draft, Approved, Rejected, Pending] to filter" width="960"/>
+                <img src="1e1d2d8ccdfb7200968a4beb8eb82d2e99fd4a54c407d7b6741486f7d81a6f4b.png" title="Sandra select status [Draft, Approved, Rejected, Pending] to filter" width="960"/>
+                <img src="dae9ad84ac29fd3d954979b9d90c11bf46cce49df294606870f9ba9c19d270ad.png" title="Sandra clicks on #target" width="960"/>
+                <img src="1e1d2d8ccdfb7200968a4beb8eb82d2e99fd4a54c407d7b6741486f7d81a6f4b.png" title="Sandra clicks on #target" width="960"/>
+                <img src="1e1d2d8ccdfb7200968a4beb8eb82d2e99fd4a54c407d7b6741486f7d81a6f4b.png" title="Then search button enabled should be (true)" width="960"/>
+                <img src="1e1d2d8ccdfb7200968a4beb8eb82d2e99fd4a54c407d7b6741486f7d81a6f4b.png" title="Sandra clicks on Search button" width="960"/>
+                <img src="a8fbdaecffbb01f1aa8a7efedfc5ad18ef99fd0a786dc6e08c13a468885d5534.png" title="Sandra clicks on Search button" width="960"/>
+                <img src="1e1d2d8ccdfb7200968a4beb8eb82d2e99fd4a54c407d7b6741486f7d81a6f4b.png" title="Sandra clicks on Search feedback button" width="960"/>
+                <img src="scaled_64f8694e457b5118f082d648a7aadcdb5cd975083a988caa285ad4f3a48c25d0.png" title="Sandra clicks on Search feedback button" width="960"/>
+                <img src="scaled_fc89a7534f61e2a9642d3f4d8591ac7390dc2307a0ba4c1bda7d60eaa09cbe14.png" title="Then the noti message should be 'Search sucessfully.'" width="960"/>
+                <img src="a8fbdaecffbb01f1aa8a7efedfc5ad18ef99fd0a786dc6e08c13a468885d5534.png" title="Then the noti message should be 'Search sucessfully.'" width="960"/>
+                <img src="a8fbdaecffbb01f1aa8a7efedfc5ad18ef99fd0a786dc6e08c13a468885d5534.png" title="Then the paging info should be 'Page 1 of 2'" width="960"/>
+                <img src="a8fbdaecffbb01f1aa8a7efedfc5ad18ef99fd0a786dc6e08c13a468885d5534.png" title="Then the view info should be 'View 1 - 10 of 16'" width="960"/>
+                <img src="a8fbdaecffbb01f1aa8a7efedfc5ad18ef99fd0a786dc6e08c13a468885d5534.png" title="Then headers info should be iterable over ['Receiver', 'Date (m/d/y)', 'Status', 'Is Shared', 'Provider'] in any order" width="960"/>
+                <img src="scaled_192c5dd226c2c950ce35f862da4a7fcaed81240fad759297dc1d99bccbed5934.png" title="Then button status should be (true)" width="960"/>
+                <img src="scaled_c85b9f02d50c50fbf59dde70c454caaecde206df80becdec8250586b8d83296b.png" title="Sandra selects row(s) and checks for button state" width="960"/>
+                <img src="scaled_3961849566f7bf4c4d48635d2bdeeb2aa0d8595960d0635bf580de18ebae66da.png" title="Sandra clicks on Draft row" width="960"/>
+                <img src="3961849566f7bf4c4d48635d2bdeeb2aa0d8595960d0635bf580de18ebae66da.png" title="Then button enablity should be (true)" width="960"/>
+                <img src="3961849566f7bf4c4d48635d2bdeeb2aa0d8595960d0635bf580de18ebae66da.png" title="Then button enablity should be (false)" width="960"/>
+                <img src="3961849566f7bf4c4d48635d2bdeeb2aa0d8595960d0635bf580de18ebae66da.png" title="Then button enablity should be (false)" width="960"/>
+                <img src="3961849566f7bf4c4d48635d2bdeeb2aa0d8595960d0635bf580de18ebae66da.png" title="Then button enablity should be (true)" width="960"/>
+                <img src="3961849566f7bf4c4d48635d2bdeeb2aa0d8595960d0635bf580de18ebae66da.png" title="Then button enablity should be (true)" width="960"/>
+                <img src="3961849566f7bf4c4d48635d2bdeeb2aa0d8595960d0635bf580de18ebae66da.png" title="Then button enablity should be (true)" width="960"/>
+                <img src="3961849566f7bf4c4d48635d2bdeeb2aa0d8595960d0635bf580de18ebae66da.png" title="Then button enablity should be (true)" width="960"/>
+                <img src="3961849566f7bf4c4d48635d2bdeeb2aa0d8595960d0635bf580de18ebae66da.png" title="Sandra clicks on Draft row" width="960"/>
+                <img src="c85b9f02d50c50fbf59dde70c454caaecde206df80becdec8250586b8d83296b.png" title="Sandra clicks on Draft row" width="960"/>
+                <img src="c85b9f02d50c50fbf59dde70c454caaecde206df80becdec8250586b8d83296b.png" title="Sandra selects row(s) and checks for button state" width="960"/>
+                <img src="192c5dd226c2c950ce35f862da4a7fcaed81240fad759297dc1d99bccbed5934.png" title="Sandra selects row(s) and checks for button state" width="960"/>
+                <img src="c85b9f02d50c50fbf59dde70c454caaecde206df80becdec8250586b8d83296b.png" title="Sandra clicks on Approved row" width="960"/>
+                <img src="scaled_85e9595b5ac35c2c72c787b18e641bcbad6a3813ea268920758a71038c3e553d.png" title="Sandra clicks on Approved row" width="960"/>
+                <img src="85e9595b5ac35c2c72c787b18e641bcbad6a3813ea268920758a71038c3e553d.png" title="Then button enablity should be (true)" width="960"/>
+                <img src="85e9595b5ac35c2c72c787b18e641bcbad6a3813ea268920758a71038c3e553d.png" title="Then button enablity should be (false)" width="960"/>
+                <img src="85e9595b5ac35c2c72c787b18e641bcbad6a3813ea268920758a71038c3e553d.png" title="Then button enablity should be (false)" width="960"/>
+                <img src="85e9595b5ac35c2c72c787b18e641bcbad6a3813ea268920758a71038c3e553d.png" title="Then button enablity should be (true)" width="960"/>
+                <img src="85e9595b5ac35c2c72c787b18e641bcbad6a3813ea268920758a71038c3e553d.png" title="Then button enablity should be (true)" width="960"/>
+                <img src="85e9595b5ac35c2c72c787b18e641bcbad6a3813ea268920758a71038c3e553d.png" title="Then button enablity should be (false)" width="960"/>
+                <img src="85e9595b5ac35c2c72c787b18e641bcbad6a3813ea268920758a71038c3e553d.png" title="Then button enablity should be (false)" width="960"/>
+                <img src="85e9595b5ac35c2c72c787b18e641bcbad6a3813ea268920758a71038c3e553d.png" title="Sandra clicks on Approved row" width="960"/>
+                <img src="192c5dd226c2c950ce35f862da4a7fcaed81240fad759297dc1d99bccbed5934.png" title="Sandra clicks on Approved row" width="960"/>
+                <img src="192c5dd226c2c950ce35f862da4a7fcaed81240fad759297dc1d99bccbed5934.png" title="Sandra selects row(s) and checks for button state" width="960"/>
+                <img src="192c5dd226c2c950ce35f862da4a7fcaed81240fad759297dc1d99bccbed5934.png" title="Sandra clicks on Draft row" width="960"/>
+                <img src="3961849566f7bf4c4d48635d2bdeeb2aa0d8595960d0635bf580de18ebae66da.png" title="Sandra clicks on Draft row" width="960"/>
+                <img src="3961849566f7bf4c4d48635d2bdeeb2aa0d8595960d0635bf580de18ebae66da.png" title="Sandra clicks on Approved row" width="960"/>
+                <img src="scaled_efdfc3210d1055c573d0a3868a27dc37f02e9d8154b3cd1220bfcb8e5a183d95.png" title="Sandra clicks on Approved row" width="960"/>
+                <img src="efdfc3210d1055c573d0a3868a27dc37f02e9d8154b3cd1220bfcb8e5a183d95.png" title="Then button enablity should be (true)" width="960"/>
+                <img src="efdfc3210d1055c573d0a3868a27dc37f02e9d8154b3cd1220bfcb8e5a183d95.png" title="Then button enablity should be (false)" width="960"/>
+                <img src="efdfc3210d1055c573d0a3868a27dc37f02e9d8154b3cd1220bfcb8e5a183d95.png" title="Then button enablity should be (false)" width="960"/>
+                <img src="efdfc3210d1055c573d0a3868a27dc37f02e9d8154b3cd1220bfcb8e5a183d95.png" title="Then button enablity should be (false)" width="960"/>
+                <img src="efdfc3210d1055c573d0a3868a27dc37f02e9d8154b3cd1220bfcb8e5a183d95.png" title="Then button enablity should be (true)" width="960"/>
+                <img src="efdfc3210d1055c573d0a3868a27dc37f02e9d8154b3cd1220bfcb8e5a183d95.png" title="Then button enablity should be (false)" width="960"/>
+                <img src="efdfc3210d1055c573d0a3868a27dc37f02e9d8154b3cd1220bfcb8e5a183d95.png" title="Then button enablity should be (false)" width="960"/>
+                <img src="efdfc3210d1055c573d0a3868a27dc37f02e9d8154b3cd1220bfcb8e5a183d95.png" title="Sandra clicks on Draft row" width="960"/>
+                <img src="scaled_b625aa61154a3c0f0d475f78915fcc08e5a2b499a407e7920b8f016a54b4d451.png" title="Sandra clicks on Draft row" width="960"/>
+                <img src="b625aa61154a3c0f0d475f78915fcc08e5a2b499a407e7920b8f016a54b4d451.png" title="Sandra clicks on Approved row" width="960"/>
+                <img src="192c5dd226c2c950ce35f862da4a7fcaed81240fad759297dc1d99bccbed5934.png" title="Sandra clicks on Approved row: <span class='success-color'>SUCCESS</span>" width="960"/>
+            </div>
+        </div>
+
+
+    </div>
+</div>
+<div id="beforefooter"></div>
+<div id="bottomfooter">
+    <span class="version">Serenity BDD version 1.2.4</span>
+</div>
+</body>
+</html>

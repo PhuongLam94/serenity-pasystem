@@ -1,0 +1,3 @@
+com\kms\test\PASystem\ui\LoginPage.class
+com\kms\test\PASystem\tasks\Login.class
+com\kms\test\PASystem\tasks\OpenTheApplication.class

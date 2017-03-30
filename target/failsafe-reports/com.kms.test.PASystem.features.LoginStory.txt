@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: com.kms.test.PASystem.features.LoginStory
+-------------------------------------------------------------------------------
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 33.898 sec - in com.kms.test.PASystem.features.LoginStory
